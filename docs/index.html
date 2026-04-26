@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STOXX 600 Rotation Radar</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>STOXX 600 Rotation Radar</h1>
+  <p class="tagline">
+    "<strong>Купи лидерите, особено когато временно отслабнат.</strong>" —
+    <em>не "хвани падналите ангели"</em>.
+    <br>
+    <small>
+      Същият V2 движок като SP500 Rotation Radar, приложен върху STOXX Europe 600.
+      Universe: iShares EXSA UCITS ETF holdings (daily updated, ~600 акции през 17 страни).
+      Backtest на SP500: <strong>Stable Winners +3.34% excess</strong> на 3-месечен horizon,
+      <strong>Quality Dip +1.72%</strong>, Faded Bounces −0.44%.
+    </small>
+  </p>
+  <div id="metadata" class="metadata"></div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="stable-winners-1m">🎯 Stable Winners (1m)</button>
+  <button class="tab" data-tab="stable-winners-3m">🎯 Stable Winners (3m)</button>
+  <button class="tab" data-tab="quality-dip-1m">💎 Quality Dip (1m)</button>
+  <button class="tab" data-tab="quality-dip-3m">💎 Quality Dip (3m)</button>
+  <button class="tab" data-tab="faded-bounces">⚠ Faded Bounces (avoid)</button>
+  <button class="tab" data-tab="current-strength">📈 Current Strength</button>
+  <button class="tab" data-tab="rank-all">📋 Rank All</button>
+  <button class="tab" data-tab="screener">📊 Universe Screener</button>
+  <button class="tab" data-tab="sectors">🌡 Sector Heatmap</button>
+</nav>
+
+<main>
+  <section id="stable-winners-1m" class="view active">
+    <h2>🎯 Stable Winners — Лидери, които продължават да водят (1m)</h2>
+    <p class="view-desc">
+      Акции с <strong>висока база</strong> (топ 20% последните 6 месеца) и <strong>положителна ΔRank</strong> в последния месец.
+      Това е главният сигнал — backtest +3.34% excess на 63d horizon, hit rate 53.2%.
+      Лидерството не отстъпва. Тук е ровенето.
+    </p>
+    <div class="table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="stable-winners-1m">📥 Export to Excel</button></div>
+  </section>
+
+  <section id="stable-winners-3m" class="view">
+    <h2>🎯 Stable Winners (3m delta)</h2>
+    <p class="view-desc">Същата логика, но 3-месечен поглед. По-стабилен, по-малко candidates.</p>
+    <div class="table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="stable-winners-3m">📥 Export to Excel</button></div>
+  </section>
+
+  <section id="quality-dip-1m" class="view">
+    <h2>💎 Quality Dip — Лидери временно отслабнали (1m)</h2>
+    <p class="view-desc">
+      Акции с <strong>висока база</strong> (топ 20% последните 6 месеца) и <strong>отрицателна ΔRank</strong> наскоро.
+      Backtest +1.72% excess на 63d horizon, hit rate 49.6%. Mean reversion обикновено връща.
+      <br>
+      <strong>Cross-check:</strong> провери "Abs %ile" колоната — ако е под 50, акцията е sector-relative силна
+      но абсолютно слаба (best of bad sector), което може да е chronic decline, не Quality Dip.
+    </p>
+    <div class="table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="quality-dip-1m">📥 Export to Excel</button></div>
+  </section>
+
+  <section id="quality-dip-3m" class="view">
+    <h2>💎 Quality Dip (3m delta)</h2>
+    <p class="view-desc">3-месечно отслабване на лидери. По-сериозна реакция → по-голяма възможност при reversion.</p>
+    <div class="table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="quality-dip-3m">📥 Export to Excel</button></div>
+  </section>
+
+  <section id="faded-bounces" class="view">
+    <h2>⚠ Faded Bounces — какво да не гониш (1m)</h2>
+    <p class="view-desc">
+      Акции с <strong>ниска база</strong> (под p20 последните 6 месеца) и <strong>скорошен скок</strong>.
+      Изглеждат като turnaround candidates — но backtest показа <strong>−0.44% excess</strong> на 63d horizon, hit rate 44.7%.
+      Падналите ангели рядко се възстановяват. Тук е contra-list — какво да НЕ купиш.
+    </p>
+    <div class="table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="faded-bounces">📥 Export to Excel</button></div>
+  </section>
+
+  <section id="current-strength" class="view">
+    <h2>📈 Current Strength — Топ 50 по абсолютен 12-1 momentum</h2>
+    <p class="view-desc">
+      Класически "current strength view" от старото SP500-momentumrank — топ 50 акции
+      по <strong>абсолютна 11-месечна доходност</strong> (Jegadeesh-Titman 12-1, skip последния месец).
+      Колоната <strong>"12-1 Mom %"</strong> показва реалната доходност, не percentile.
+      Полезно за cross-check: ако даден Stable Winner или Quality Dip кандидат не е в този списък,
+      означава че е sector-relative силен но абсолютно умерен.
+    </p>
+    <div class="table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="current-strength">📥 Export to Excel</button></div>
+  </section>
+
+  <section id="rank-all" class="view">
+    <h2>📋 Rank All — всички акции, подредени по Score</h2>
+    <p class="view-desc">
+      Пълно подреждане на 500+ SP500 акции по нашия <strong>Score</strong> (sector-relative percentile rank,
+      V2 еквивалент на старата "weighted_return / vol + 0.3·sharpe" формула).
+      Колоната <strong>#</strong> е позицията в подреждането, най-добрите отгоре.
+      Включва всички ranking метрики: Score, Abs %ile, 12-1 Mom %, Base, Δ 1m, Δ 3m, и quadrant класификация.
+      Филтрирай по сектор, за да видиш напр. всички Information Technology акции.
+    </p>
+    <div class="screener-controls">
+      <label>Сектор:
+        <select id="rank-sector"><option value="">Всички</option></select>
+      </label>
+      <label>Quadrant (1m):
+        <select id="rank-quadrant">
+          <option value="">Всички</option>
+          <option value="Stable Winner">Stable Winner</option>
+          <option value="Quality Dip">Quality Dip</option>
+          <option value="Faded Bounce">Faded Bounce</option>
+          <option value="Chronic Loser">Chronic Loser</option>
+          <option value="Neutral">Neutral</option>
+        </select>
+      </label>
+      <label>Търсене:
+        <input id="rank-search" type="text" placeholder="ticker или име..." />
+      </label>
+      <span id="rank-count" class="count-pill"></span>
+    </div>
+    <div class="table-host screener-table-host" id="rank-table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="rank-all">📥 Export to Excel (filtered)</button></div>
+  </section>
+
+  <section id="screener" class="view">
+    <h2>📊 Universe Screener — пълна таблица с всички акции</h2>
+    <p class="view-desc">
+      Всички 500+ SP500 акции, със сортиране по сектор, размер, доходност, риск, drawdown, beta.
+      Метриките са изчислени от 6-годишна история на дневните цени. Колоните: размер (Large/Mid/Small),
+      доходност за 1M/3M/6M/YTD/1Y/3Y/5Y, годишна vol, Sharpe, max drawdown, разстояние от 52-седмичния връх и beta.
+    </p>
+    <div class="screener-controls">
+      <label>Сектор:
+        <select id="screener-sector"><option value="">Всички</option></select>
+      </label>
+      <label>Размер (ETF weight):
+        <select id="screener-size">
+          <option value="">Всички</option>
+          <option value="Large">Large (≥1%)</option>
+          <option value="Mid">Mid (0.3-1%)</option>
+          <option value="Small">Small (<0.3%)</option>
+        </select>
+      </label>
+      <label>Търсене:
+        <input id="screener-search" type="text" placeholder="ticker или име..." />
+      </label>
+      <span id="screener-count" class="count-pill"></span>
+    </div>
+    <div class="table-host screener-table-host"></div>
+    <div class="export-bar"><button class="export-btn" data-export="screener">📥 Export to Excel (filtered)</button></div>
+  </section>
+
+  <section id="sectors" class="view">
+    <h2>🌡 Sector Rotation Heatmap</h2>
+    <p class="view-desc">
+      Средна ΔRank по GICS Sector. С sector-relative z-score scoring-а, секторните стойности отразяват
+      <em>интрасекторно лидерство</em>, не просто overall sector performance.
+    </p>
+    <div class="heatmap-host"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    Скоринг: pure 12-1 momentum + GICS-sector-relative z-score • Прагове: p20/p80 • Refresh: daily
+    <br>
+    <strong>Колони:</strong>
+    <em>Sector Rank</em> = sector-relative z-score percentile (главният сигнал) •
+    <em>Abs %ile</em> = absolute 12-1 momentum percentile (cross-check) •
+    <em>12-1 Mom %</em> = действителна 11-месечна доходност (skip последния месец) •
+    <em>Base (6m)</em> = средна Sector Rank за месеци 6-1 назад •
+    <em>Δ 1m / 3m</em> = промяна на Sector Rank спрямо преди 21/63 търговски дни •
+    <em>Trajectory</em> = последните 90 търговски дни (~4 месеца) на Sector Rank, не доходността
+    <br><br>
+    <strong>Не е инвестиционен съвет.</strong> Инструмент за research starting points, не за директно търгуване.
+    Survivorship bias caveat: backtest резултатите са оптимистично-биасирани (текущ SP500 universe).
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

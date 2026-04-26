@@ -1,0 +1,405 @@
+:root {
+  --bg: #0d1117;
+  --bg-elev: #161b22;
+  --bg-elev-2: #1c232c;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-dim: #8b949e;
+  --accent: #58a6ff;
+  --riser: #2ea043;
+  --riser-bg: rgba(46, 160, 67, 0.12);
+  --decayer: #f85149;
+  --decayer-bg: rgba(248, 81, 73, 0.12);
+  --neutral: #8b949e;
+  --warn: #d29922;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  color: var(--text-dim);
+  font-size: 15px;
+}
+
+.tagline small {
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+.metadata {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.metadata span {
+  display: inline-block;
+  margin-right: 16px;
+  padding: 4px 10px;
+  background: var(--bg-elev);
+  border-radius: 4px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg);
+  padding-top: 8px;
+}
+
+.tab {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+
+.tab:hover {
+  color: var(--text);
+  background: var(--bg-elev);
+}
+
+.tab.active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+.view h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.view-desc {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-elev);
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+th {
+  background: var(--bg-elev-2);
+  text-align: left;
+  padding: 10px 12px;
+  font-weight: 600;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+}
+
+th:hover { color: var(--text); }
+
+th.sort-asc::after { content: " ▲"; color: var(--accent); }
+th.sort-desc::after { content: " ▼"; color: var(--accent); }
+
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+tr:last-child td { border-bottom: none; }
+
+tr:hover { background: var(--bg-elev-2); }
+
+.ticker {
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.ticker:hover { text-decoration: underline; }
+
+.delta-positive { color: var(--riser); font-weight: 600; }
+.delta-negative { color: var(--decayer); font-weight: 600; }
+
+.quadrant {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.quadrant-riser { background: var(--riser-bg); color: var(--riser); }
+.quadrant-decayer { background: var(--decayer-bg); color: var(--decayer); }
+.quadrant-stable_winner { background: rgba(88, 166, 255, 0.12); color: var(--accent); }
+.quadrant-chronic_loser { background: rgba(139, 148, 158, 0.12); color: var(--text-dim); }
+.quadrant-neutral { background: var(--bg-elev-2); color: var(--text-dim); }
+.quadrant-unknown { background: var(--bg-elev-2); color: var(--text-dim); }
+
+.trajectory {
+  display: inline-block;
+  width: 100px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.empty-state {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-dim);
+  background: var(--bg-elev);
+  border-radius: 6px;
+}
+
+/* Export to Excel button */
+.export-bar {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.export-btn {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.export-btn:hover {
+  background: var(--bg-elev-2);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.export-btn:active {
+  transform: translateY(1px);
+}
+
+/* Screener — full viewport width breakout (без fullscreen режим). */
+body.screener-mode {
+  max-width: none;
+}
+
+body.screener-mode #screener.view {
+  width: 100%;
+  max-width: none;
+}
+
+/* Screener controls */
+.screener-controls {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  background: var(--bg-elev);
+  border-radius: 6px;
+}
+
+.screener-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.screener-controls select,
+.screener-controls input {
+  background: var(--bg-elev-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  min-width: 180px;
+}
+
+.screener-controls input:focus,
+.screener-controls select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.count-pill {
+  margin-left: auto;
+  background: var(--bg-elev-2);
+  color: var(--text-dim);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Точна реплика на stoxx600-momentumrank table approach. */
+.screener-table-host {
+  height: 75vh;
+  overflow: auto;
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.screener-table-host table {
+  width: 100%;
+  min-width: 2400px;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+  font-variant-numeric: tabular-nums;
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.screener-table-host thead,
+.screener-table-host thead tr {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg-elev-2);
+}
+
+.screener-table-host thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: var(--bg-elev-2);
+  border-bottom: 2px solid var(--border);
+  padding: 0 8px;
+  height: 36px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--text-dim);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.screener-table-host thead th:hover { color: var(--text); }
+
+.screener-table-host tbody tr {
+  height: 30px;
+  border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+}
+
+.screener-table-host tbody tr:hover { background: var(--bg-elev-2); }
+
+.screener-table-host td {
+  padding: 0 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+/* Heatmap */
+.heatmap {
+  display: grid;
+  gap: 6px;
+}
+
+.heatmap-row {
+  display: grid;
+  grid-template-columns: 220px 1fr 1fr 100px 80px 80px;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--bg-elev);
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.heatmap-row.header {
+  background: var(--bg-elev-2);
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.heat-cell {
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  body { padding: 12px; }
+  .tabs { font-size: 13px; }
+  .tab { padding: 8px 10px; }
+  table { font-size: 12px; }
+  th, td { padding: 8px 6px; }
+  .trajectory { width: 60px; }
+  .heatmap-row {
+    grid-template-columns: 1fr 60px 60px;
+    font-size: 12px;
+  }
+  .heatmap-row > :nth-child(n+4) { display: none; }
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Backtest artifacts (regenerable)
+data/backtest_results.parquet
+data/backtest_v2_results.parquet
+data/ranks_history_v2.parquet
+
+# IDE
+.vscode/
+.idea/
