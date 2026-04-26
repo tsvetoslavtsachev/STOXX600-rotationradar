@@ -90,6 +90,34 @@ EXCHANGE_SUFFIX = {
     "Warsaw Stock Exchange/Equities/Main Market": ".WA",
 }
 
+# Country (Standort) German names → English
+COUNTRY_TRANSLATIONS = {
+    "Vereinigtes Königreich": "United Kingdom",
+    "Großbritannien": "United Kingdom",
+    "Deutschland": "Germany",
+    "Frankreich": "France",
+    "Niederlande": "Netherlands",
+    "Belgien": "Belgium",
+    "Schweiz": "Switzerland",
+    "Italien": "Italy",
+    "Spanien": "Spain",
+    "Schweden": "Sweden",
+    "Finnland": "Finland",
+    "Dänemark": "Denmark",
+    "Norwegen": "Norway",
+    "Österreich": "Austria",
+    "Irland": "Ireland",
+    "Portugal": "Portugal",
+    "Polen": "Poland",
+    "Griechenland": "Greece",
+    "Luxemburg": "Luxembourg",
+    "Tschechien": "Czech Republic",
+    "Ungarn": "Hungary",
+    "Russland": "Russia",
+    "Türkei": "Turkey",
+}
+
+
 # Country (Standort) → fallback Yahoo suffix when exchange is unknown
 COUNTRY_FALLBACK_SUFFIX = {
     "Vereinigtes Königreich": ".L",
@@ -256,6 +284,10 @@ def parse_constituents(csv_text: str) -> pd.DataFrame:
         ),
         axis=1,
     )
+
+    # Translate country names to English (след ticker mapping, за да не счупим
+    # COUNTRY_FALLBACK_SUFFIX lookup-а който очаква German names).
+    df["country"] = df["country"].map(COUNTRY_TRANSLATIONS).fillna(df["country"])
 
     out = df[
         [
