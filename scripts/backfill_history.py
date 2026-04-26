@@ -49,6 +49,12 @@ def run_backfill(
     universe.to_parquet(UNIVERSE_CACHE_PATH)
     tickers = universe["ticker"].tolist()
     print(f"      {len(tickers)} current tickers (STOXX 600 ETF holdings)")
+    # Invalidate sector_map.json — universe може да има нови ticker-и
+    # (особено след промяна в ticker mapping logic-а)
+    sector_map_path = DATA_DIR / "sector_map.json"
+    if sector_map_path.exists():
+        sector_map_path.unlink()
+        print("      Invalidated sector_map.json (will be regenerated)")
 
     end = pd.Timestamp.today().normalize()
     start = end - pd.DateOffset(years=years + 1)  # +1y буфер за 12m lookback

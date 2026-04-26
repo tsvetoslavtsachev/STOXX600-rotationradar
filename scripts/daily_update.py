@@ -43,10 +43,24 @@ def load_sector_map_for_scoring(cache_path: Path) -> dict[str, str]:
 
 
 def refresh_universe_cache() -> pd.DataFrame:
-    """Изтегля свежо universe от iShares и пише cache."""
+    """Изтегля свежо universe от iShares и пише cache.
+    При промяна в universe инвалидира sector_map.json кеша."""
     print("  Refreshing universe from iShares EXSA holdings CSV...")
     universe = fetch_full_universe()
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Сравни новия universe с кешираната версия — ако ticker set се е променил,
+    # инвалидираме sector_map.json (може да има нови ticker-и без metadata).
+    if UNIVERSE_CACHE_PATH.exists():
+        try:
+            old = pd.read_parquet(UNIVERSE_CACHE_PATH)
+            if set(old["ticker"]) != set(universe["ticker"]):
+                print(f"  Universe ticker set changed → invalidating sector_map.json")
+                if SECTOR_CACHE_PATH.exists():
+                    SECTOR_CACHE_PATH.unlink()
+        except Exception:
+            pass
+
     universe.to_parquet(UNIVERSE_CACHE_PATH)
     return universe
 
