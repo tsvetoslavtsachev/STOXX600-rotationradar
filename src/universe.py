@@ -112,8 +112,20 @@ COUNTRY_FALLBACK_SUFFIX = {
     "Griechenland": ".AT",
 }
 
-# Manual ticker overrides for known iShares→Yahoo mismatches.
-TICKER_OVERRIDES: dict[str, str] = {}
+# Manual ticker overrides per exchange suffix.
+# Replikира TICKER_OVERRIDES_BY_EXCHANGE от stoxx600-momentumrank repo-то.
+TICKER_OVERRIDES_BY_EXCHANGE: dict[str, dict[str, str]] = {
+    ".SW": {
+        "ROP": "ROG",  # Roche — iShares ticker несъвпада с Yahoo
+    },
+}
+
+# Регекс за detect-ване на dual-class share class designation в name полето.
+# Покрива форми: "CLASS A", "CLASS B", "CL B", "CLASS B SHS", "B SHS", "SERIES B".
+_CLASS_LETTER_RE = re.compile(
+    r"\b(?:CLASS|CL|SERIES|CLASSE)?\s*([A-C])\s*(?:SHS|SHARES|CLASS)?\s*$",
+    re.IGNORECASE,
+)
 
 
 def _parse_german_number(s) -> float | None:
@@ -127,17 +139,59 @@ def _parse_german_number(s) -> float | None:
         return None
 
 
-def _ticker_to_yahoo(ticker: str, exchange: str, country: str) -> str | None:
+def _detect_class_letter(name: str) -> str | None:
+    """
+    От name на акцията (напр. "VOLVO CLASS B") извлича share class буквата.
+    Връща 'A'/'B'/'C' или None.
+    """
+    if not name:
+        return None
+    name_upper = name.upper().strip()
+    # Прекратяваме при думи "PLC", "AG", "SA" etc — те не са class designation
+    name_upper = re.sub(
+        r"\b(PLC|AG|SA|NV|N\.V\.|SE|SPA|S\.A\.|HOLDING[S]?|GROUP|N|PS|PAR)\b",
+        " ",
+        name_upper,
+    ).strip()
+    m = re.search(r"\b(?:CLASS|CL|SERIES)\s+([A-C])\b", name_upper)
+    if m:
+        return m.group(1)
+    # "VOLVO B", "ASSA ABLOY B" — последна samostoyatelna буква A/B/C
+    m = re.search(r"\b([A-C])\s*$", name_upper)
+    if m:
+        return m.group(1)
+    return None
+
+
+def _ticker_to_yahoo(ticker: str, exchange: str, country: str, name: str = "") -> str | None:
     """Конвертира iShares ticker + борса/страна към Yahoo Finance ticker."""
     if not ticker:
         return None
-    if ticker in TICKER_OVERRIDES:
-        return TICKER_OVERRIDES[ticker]
 
-    base = re.sub(r"\s+", "", ticker.strip().upper())
+    # Normalize: spaces, slashes, internal dots → dashes; strip trailing dots
+    base = ticker.strip().upper()
+    base = base.replace(" ", "-").replace("/", "-")
+    base = base.rstrip(".")
+    base = base.replace(".", "-")
+
+    # Override (per exchange suffix) — checked BEFORE class-letter logic
     suffix = EXCHANGE_SUFFIX.get(exchange) or COUNTRY_FALLBACK_SUFFIX.get(country)
     if not suffix:
         return None
+
+    overrides = TICKER_OVERRIDES_BY_EXCHANGE.get(suffix, {})
+    if base in overrides:
+        base = overrides[base]
+        return f"{base}{suffix}"
+
+    # Nordic dual-class fix: iShares "VOLVB" → Yahoo "VOLV-B"
+    # Detect когато name индикира class A/B/C и ticker завършва със същата буква.
+    class_letter = _detect_class_letter(name)
+    if class_letter and len(base) >= 3 and base.endswith(class_letter) and "-" not in base:
+        # Не вмъкваме dash ако вече е там, и ако ticker-ът е напр. "AB" (твърде къс)
+        new_base = base[:-1] + "-" + class_letter
+        base = new_base
+
     return f"{base}{suffix}"
 
 
@@ -197,7 +251,9 @@ def parse_constituents(csv_text: str) -> pd.DataFrame:
     df["country"] = df["country"].astype(str).str.replace("\xa0", " ", regex=False).str.strip()
     df["gics_sector"] = df["sector_de"].map(SECTOR_TRANSLATIONS).fillna(df["sector_de"])
     df["yahoo_ticker"] = df.apply(
-        lambda r: _ticker_to_yahoo(r["ishares_ticker"], r["exchange"], r["country"]),
+        lambda r: _ticker_to_yahoo(
+            r["ishares_ticker"], r["exchange"], r["country"], r.get("name", "") or ""
+        ),
         axis=1,
     )
 

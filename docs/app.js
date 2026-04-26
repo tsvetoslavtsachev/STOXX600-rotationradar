@@ -1,4 +1,4 @@
-// SP500 Rotation Radar — UI rendering logic.
+// STOXX 600 Rotation Radar — UI rendering logic.
 // Чете data.json и рендерира всички views.
 
 // Държи текущите данни за всеки tab — за Excel export-а.

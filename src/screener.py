@@ -154,7 +154,7 @@ def compute_position_metrics(prices: pd.Series) -> dict:
 
 def compute_betas(prices_df: pd.DataFrame, window: int = DAYS_1Y) -> pd.Series:
     """
-    Trailing `window`-day beta vs equal-weight SP500 benchmark.
+    Trailing `window`-day beta vs equal-weight cross-section benchmark.
 
     Benchmark = средна daily simple return на всички ticker-и в cross-section.
     Beta = cov(stock_returns, bench_returns) / var(bench_returns).

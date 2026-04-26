@@ -15,10 +15,10 @@
     <em>не "хвани падналите ангели"</em>.
     <br>
     <small>
-      Същият V2 движок като SP500 Rotation Radar, приложен върху STOXX Europe 600.
+      V2 движок приложен върху STOXX Europe 600.
       Universe: iShares EXSA UCITS ETF holdings (daily updated, ~600 акции през 17 страни).
-      Backtest на SP500: <strong>Stable Winners +3.34% excess</strong> на 3-месечен horizon,
-      <strong>Quality Dip +1.72%</strong>, Faded Bounces −0.44%.
+      Backtest върху US пазар (като референтен ориентир): Stable Winners +3.34% excess на 3m horizon,
+      Quality Dip +1.72%, Faded Bounces −0.44%.
     </small>
   </p>
   <div id="metadata" class="metadata"></div>
@@ -89,7 +89,7 @@
   <section id="current-strength" class="view">
     <h2>📈 Current Strength — Топ 50 по абсолютен 12-1 momentum</h2>
     <p class="view-desc">
-      Класически "current strength view" от старото SP500-momentumrank — топ 50 акции
+      Класически "current strength view" — топ 50 акции
       по <strong>абсолютна 11-месечна доходност</strong> (Jegadeesh-Titman 12-1, skip последния месец).
       Колоната <strong>"12-1 Mom %"</strong> показва реалната доходност, не percentile.
       Полезно за cross-check: ако даден Stable Winner или Quality Dip кандидат не е в този списък,
@@ -102,7 +102,7 @@
   <section id="rank-all" class="view">
     <h2>📋 Rank All — всички акции, подредени по Score</h2>
     <p class="view-desc">
-      Пълно подреждане на 500+ SP500 акции по нашия <strong>Score</strong> (sector-relative percentile rank,
+      Пълно подреждане на STOXX 600 акции по нашия <strong>Score</strong> (sector-relative percentile rank,
       V2 еквивалент на старата "weighted_return / vol + 0.3·sharpe" формула).
       Колоната <strong>#</strong> е позицията в подреждането, най-добрите отгоре.
       Включва всички ranking метрики: Score, Abs %ile, 12-1 Mom %, Base, Δ 1m, Δ 3m, и quadrant класификация.
@@ -134,7 +134,7 @@
   <section id="screener" class="view">
     <h2>📊 Universe Screener — пълна таблица с всички акции</h2>
     <p class="view-desc">
-      Всички 500+ SP500 акции, със сортиране по сектор, размер, доходност, риск, drawdown, beta.
+      Всички STOXX 600 акции, със сортиране по сектор, държава, размер, доходност, риск, drawdown, beta.
       Метриките са изчислени от 6-годишна история на дневните цени. Колоните: размер (Large/Mid/Small),
       доходност за 1M/3M/6M/YTD/1Y/3Y/5Y, годишна vol, Sharpe, max drawdown, разстояние от 52-седмичния връх и beta.
     </p>
@@ -183,7 +183,7 @@
     <em>Trajectory</em> = последните 90 търговски дни (~4 месеца) на Sector Rank, не доходността
     <br><br>
     <strong>Не е инвестиционен съвет.</strong> Инструмент за research starting points, не за директно търгуване.
-    Survivorship bias caveat: backtest резултатите са оптимистично-биасирани (текущ SP500 universe).
+    Survivorship bias caveat: backtest резултатите са оптимистично-биасирани (текущ universe).
   </p>
 </footer>
 
