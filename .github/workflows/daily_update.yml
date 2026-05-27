@@ -42,5 +42,16 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "daily: update ranks history & dashboard data"
-            git push
+            # Retry push с rebase за защита срещу concurrent push race
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                echo "Push успешен (опит $attempt)."
+                exit 0
+              fi
+              echo "Push fail-на (опит $attempt) — rebase + retry..."
+              git pull --rebase origin main
+              sleep $((attempt * 5))
+            done
+            echo "Push fail-на 5 пъти — abort."
+            exit 1
           fi
