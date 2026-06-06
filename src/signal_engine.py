@@ -94,10 +94,22 @@ def compute_cross_section(
 
     df = pd.DataFrame(rows)
 
-    # Sector-relative z-score. Single-stock sectors → z = 0 (neutral).
-    df["sector_zscore"] = df.groupby("sector")["mom_12_1"].transform(
-        lambda s: (s - s.mean()) / s.std() if s.std() > 0 else 0.0
-    )
+    # Sector-relative z-score. For a sector with no usable dispersion (a single
+    # stock, or all members identical → std is 0/NaN) the sector-relative score is
+    # undefined. Falling back to a flat 0 buries the signal: a lone-sector stock
+    # with huge momentum would rank neutral (~p50). Instead fall back to a
+    # UNIVERSE-relative z-score, so its real momentum still registers.
+    global_mean = df["mom_12_1"].mean()
+    global_std = df["mom_12_1"].std()
+
+    def _sector_z(s: pd.Series) -> pd.Series:
+        if s.std() > 0:
+            return (s - s.mean()) / s.std()
+        if np.isfinite(global_std) and global_std > 0:
+            return (s - global_mean) / global_std
+        return s * 0.0  # degenerate: whole universe identical
+
+    df["sector_zscore"] = df.groupby("sector")["mom_12_1"].transform(_sector_z)
 
     df["raw_score"] = df["sector_zscore"]
     df["percentile_rank"] = df["sector_zscore"].rank(pct=True) * 100.0
