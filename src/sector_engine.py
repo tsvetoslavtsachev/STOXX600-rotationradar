@@ -1,12 +1,21 @@
 """
-Sector Context Engine — GICS Sector за всяка акция.
+Sector Context Engine — GICS Sector (+ Sub-Industry where the source provides it).
 
-Source: iShares EXSA ETF holdings CSV via universe.fetch_current_constituents.
-Sub-industry не идва от iShares CSV; имитирано със sector като fallback.
-Cache: data/sector_map.json — обновяваме рядко.
+VENDORED: canonical copy lives in tsachev-ops rotation_core/ (A2-rr twins core).
+Do NOT edit a single repo's copy — edit the canon, run sync_rotation_core.py, commit
+both twins. The executable code is byte-identical across the twins; see
+rotation-twins-diff-journal.md.
+
+Source: universe.fetch_current_constituents() — provided locally by each repo:
+  - SP500-rotationradar:    Wikipedia constituents — real GICS sector + sub-industry.
+  - STOXX600-rotationradar: iShares EXSA holdings — GICS sector only; sub-industry
+                            mirrors the sector as a fallback (not in the iShares CSV).
+Cache: data/sector_map.json — обновяваме рядко, секторите не сменят често.
 
 Aggregation:
   - Sector heatmap: средна ΔRank по сектор
+  - Sub-industry drilldown: top sub-industries по ΔRank (degenerate for STOXX, where
+    sub-industry == sector)
 """
 
 from __future__ import annotations

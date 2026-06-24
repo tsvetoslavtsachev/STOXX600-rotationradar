@@ -8,6 +8,9 @@ Rank History persistence + ΔRank Engine.
 """
 
 from __future__ import annotations
+# VENDORED: canonical copy in tsachev-ops rotation_core/ (A2-rr twins core). Do NOT
+# edit a single repo's copy -- edit the canon, run sync_rotation_core.py, commit
+# both twins. See rotation-twins-diff-journal.md.
 
 from pathlib import Path
 
