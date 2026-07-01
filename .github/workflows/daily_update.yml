@@ -96,7 +96,9 @@ jobs:
                 exit 0
               fi
               echo "Push fail-на (опит $attempt) — rebase + retry..."
-              git pull --rebase origin main
+              # -X theirs: двата run-а пренаписват целия data.json, затова rebase винаги конфликтва;
+              # нашата свежа регенерация е авторитетна -> реши конфликта към нас, не гърми червено.
+              git pull --rebase -X theirs origin main
               sleep $((attempt * 5))
             done
             echo "Push fail-на 5 пъти — abort."
