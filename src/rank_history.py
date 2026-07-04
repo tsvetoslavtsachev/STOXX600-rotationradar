@@ -26,6 +26,13 @@ DELTA_3M_DAYS = 63
 BASE_START_DAYS = 126  # 6 месеца назад
 BASE_END_DAYS = 21  # excludes последния месец
 
+# Д1 canon (consilium 04.07.2026, AUDIT-D1-D2): thresholds are calibrated
+# PER-UNIVERSE for tail symmetry -- NOT a universal constant. Twins at 80/20
+# have ~symmetric tails (STOXX600 snapshot 04.07: 17.6% low / 17.1% high).
+# The ETF Rotation Radar (_etf_remote -- a DIFFERENT universe, outside this
+# vendored core) was recalibrated 20->25 via S16 backtest (d7a3dab): its low
+# tail caught only 12.3% vs 20.6% high. Changing the twins' threshold
+# requires an S16-style backtest first, not a sync from another universe.
 HIGH_BASE_THRESHOLD = 80.0
 LOW_BASE_THRESHOLD = 20.0
 
