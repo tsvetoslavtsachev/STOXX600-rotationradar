@@ -35,6 +35,32 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
 
+      # REV2 queue (INIT-24): fail the run if a vendored rotation_core module drifts from
+      # the tsachev-ops canon. sync_rotation_core.py --check can't run in CI (the canon lives
+      # in the private vault, not this repo), so the pinned sha256 IS the canon's identity.
+      # On a legit core change: run sync_rotation_core.py, then update the sha here in the
+      # SAME commit that ships the new src/ module (the existing sync ritual, one extra line).
+      - name: Check vendored rotation_core parity (REV2)
+        run: |
+          declare -A EXPECT=(
+            [prices.py]=fc444184bf36
+            [rank_history.py]=8d1de74cf951
+            [signal_engine.py]=4de3d0597559
+            [sector_engine.py]=3fda3f6a1a58
+            [screener_core.py]=bcf7a6858a7c
+          )
+          rc=0
+          for m in "${!EXPECT[@]}"; do
+            got=$(sha256sum "src/$m" | cut -c1-12)
+            if [ "$got" != "${EXPECT[$m]}" ]; then
+              echo "DRIFT src/$m: got $got expected ${EXPECT[$m]}"; rc=1
+            else
+              echo "OK    src/$m $got"
+            fi
+          done
+          [ $rc -eq 0 ] && echo "PASS -- rotation_core in sync with canon" || \
+            { echo "FAIL -- run sync_rotation_core.py + update the pinned sha in tests.yml"; exit 1; }
+
       - name: Run tests
         # python -m pytest puts the repo root on sys.path → `from src...` resolves
         run: python -m pytest -q
