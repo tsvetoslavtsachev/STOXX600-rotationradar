@@ -72,9 +72,9 @@ function renderWatchlist(viewId, rows, deltaWindow) {
     { key: "ticker", label: "Ticker" },
     { key: "name", label: "Name" },
     { key: "sector", label: "Sector" },
-    { key: "current_rank", label: "Sector Rank" },
-    { key: "abs_strength", label: "Abs %ile" },
+    { key: "abs_strength", label: "12-1 Rank" },
     { key: "mom_12_1_pct", label: "12-1 Mom %" },
+    { key: "current_rank", label: "Sector-rel." },
     { key: "base_rank_6m", label: "Base (6m)" },
   ];
   if (showBoth) {
