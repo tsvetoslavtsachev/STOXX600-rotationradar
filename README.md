@@ -1,6 +1,6 @@
 # STOXX 600 Rotation Radar
 
-> **"Купи лидерите, особено когато временно отслабнат."** Не "хвани падналите ангели".
+> **Наблюдавай лидерите — особено когато временно отслабнат.** Радар за относителна сила ВЪТРЕ в сектора (12-1 momentum спрямо секторните съседи), не сигнал за покупка.
 
 V2 на rotation radar архитектурата приложена върху **STOXX Europe 600**. Identify Stable Winners (лидери, които продължават да водят) и Quality Dip (лидери, които временно отслабват) в европейския пазар.
 
@@ -45,7 +45,7 @@ Sub-industry липсва (не е в CSV-то).
 
 1. **🎯 Stable Winners (1m)** — primary watchlist
 2. **🎯 Stable Winners (3m)** — стабилно тестваните
-3. **💎 Quality Dip (1m)** — Nike-style buy points
+3. **💎 Quality Dip (1m)** — отслабващи лидери (наблюдение, не buy point)
 4. **💎 Quality Dip (3m)** — по-сериозни pullbacks
 5. **⚠ Faded Bounces** — contrarian warning
 6. **📈 Current Strength** — топ 50 по абсолютен 12-1 momentum
@@ -72,7 +72,7 @@ pytest tests/ -v
 
 - **Survivorship bias** — iShares CSV съдържа само текущи constituent-и, не historic. Backtest резултатите ще са оптимистично-биасирани.
 - **yfinance coverage** — за някои small-cap европейски акции yfinance няма пълна 5-годишна история. Тези ticker-и пропадат и не се класират.
-- **Multi-currency** — цените в CSV-то са в local currency. ΔRank работи на ratio-based metrics, не зависи от FX. Но абсолютни return сравнения между UK (GBP/GBp) и Eurozone (EUR) акции трябва да се правят с разбиране.
+- **Multi-currency** — цените в CSV-то са в local currency. Per-серия 12-1 доходността е FX-инвариантна само спрямо **постоянен** курс; НЕ спрямо FX **дрифт** през 12-месечния прозорец (доходността на UK/CH/скандинавска акция носи вграден 12м ход на местната валута срещу EUR). Затова **кръстосаните ранг-сравнения между валутни зони НЕ са FX-неутрални**. Редът общо се пази (Spearman local-vs-EUR 0.98–0.99), но в дрифт периоди top-20 прагът флипва ~8–16% от имената и цели зони се разместват (напр. CHF +11.76% → медианната швейцарска акция ~+57 ранг-места; T4 в `_rotation_twins_analytics/C-EMPIRICS.md`). GBX→GBP нормализацията оправя само единиците, не cross-currency дрифта. „Current Strength" (суров 12-1) сравнява между валути голо — чети го със зоново разбиране.
 - **Sector translations** — German GICS лейбъли са преведени ръчно. Ако iShares въведе нов сектор (рядко), ще трябва обновяване в `src/universe.py`.
 
 ## Свързани материали
