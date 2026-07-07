@@ -1,6 +1,5 @@
 {
   "by_symbol": {
-    "-.MC": "missing",
     "A2A.MI": "base",
     "A5G.IR": "base",
     "AAF.L": "base",
@@ -18,7 +17,6 @@
     "ACKB.BR": "base",
     "ACLN.SW": "base",
     "ACP.WA": "base",
-    "ACS-D.MC": "missing",
     "ACS.MC": "base",
     "ACX.MC": "base",
     "AD.AS": "base",
@@ -269,6 +267,7 @@
     "HUH1V.HE": "base",
     "HWDN.L": "base",
     "IAG.L": "base",
+    "IBE-D.MC": "missing",
     "IBE.MC": "base",
     "ICG.L": "base",
     "IDR.MC": "base",
@@ -604,9 +603,9 @@
     "ZURN.SW": "base"
   },
   "summary": {
-    "expected": 602,
-    "covered": 602,
+    "expected": 601,
+    "covered": 601,
     "base": 593,
-    "fetch": 9
+    "fetch": 8
   }
 }
