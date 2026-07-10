@@ -38,6 +38,20 @@ h1 {
   margin-bottom: 8px;
 }
 
+/* O4 badge — flot-wide epistemic marker, unified with the honest tagline
+   (the "не сигнал" moves here so the tagline no longer duplicates it). */
+.o4-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.02em;
+  text-transform: uppercase; white-space: nowrap;
+  color: #7dd3fc; background: rgba(56,189,248,0.10);
+  border: 1px solid rgba(56,189,248,0.35);
+  border-radius: 999px; padding: 3px 11px;
+  margin: 2px 0 10px; cursor: help;
+}
+.o4-badge .sep { opacity: 0.5; }
+.o4-badge .horizon { color: var(--text-dim); text-transform: none; font-weight: 500; }
+
 .tagline {
   color: var(--text-dim);
   font-size: 15px;
