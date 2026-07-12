@@ -155,6 +155,14 @@ th:hover { color: var(--text); }
 th.sort-asc::after { content: " ▲"; color: var(--accent); }
 th.sort-desc::after { content: " ▼"; color: var(--accent); }
 
+/* ФОРМА-КАНОН §1, правило 3 — обяснение на място. Пунктирано подчертаване =
+   „задръж мишката за обяснение" (колоната има native title tooltip). */
+th.has-tip { text-decoration: underline dotted rgba(139, 148, 158, 0.55); text-underline-offset: 3px; }
+.term {
+  border-bottom: 1px dotted var(--text-dim);
+  cursor: help;
+}
+
 td {
   padding: 10px 12px;
   border-bottom: 1px solid var(--border);
