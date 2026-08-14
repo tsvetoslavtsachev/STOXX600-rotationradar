@@ -1,6 +1,5 @@
 {
   "by_symbol": {
-    "-.DE": "missing",
     "A2A.MI": "base",
     "A5G.IR": "base",
     "AAF.L": "base",
@@ -603,9 +602,9 @@
     "ZURN.SW": "base"
   },
   "summary": {
-    "expected": 601,
-    "covered": 601,
+    "expected": 600,
+    "covered": 600,
     "base": 593,
-    "fetch": 8
+    "fetch": 7
   }
 }
