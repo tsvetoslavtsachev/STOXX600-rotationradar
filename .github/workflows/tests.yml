@@ -46,7 +46,7 @@ jobs:
         run: |
           declare -A EXPECT=(
             [prices.py]=2e4c5e4c3015
-            [rank_history.py]=67be7a1eeb09
+            [rank_history.py]=684e4b09f2af
             [signal_engine.py]=b9bbb9bc5b48
             [sector_engine.py]=0d63c27900d4
             [screener_core.py]=9e05bad72028
