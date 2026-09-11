@@ -226,6 +226,33 @@ def get_sustained_risers(deltas: pd.DataFrame, limit: int = 20) -> pd.DataFrame:
     return sustained.nlargest(limit, "combined_score")
 
 
+def replace_history_from(history_path: Path, from_date: pd.Timestamp, snapshot: pd.DataFrame) -> None:
+    """
+    Replace every history row dated >= from_date with `snapshot` (a rebuild after a price-scale
+    repair, see src/price_scale.py). Rows before from_date are kept byte-for-byte.
+    Refuses an empty snapshot: that would silently wipe the tail of the history.
+    """
+    snap = snapshot[HISTORY_COLUMNS].copy()
+    snap["date"] = pd.to_datetime(snap["date"])
+    from_date = pd.Timestamp(from_date)
+    if snap.empty:
+        raise ValueError(f"replace_history_from: empty rebuild for dates >= {from_date.date()}")
+    if snap["date"].min() < from_date:
+        raise ValueError("replace_history_from: rebuilt snapshot reaches before from_date")
+
+    if history_path.exists():
+        existing = pd.read_parquet(history_path)
+        existing["date"] = pd.to_datetime(existing["date"])
+        existing = existing.loc[existing["date"] < from_date]
+        combined = pd.concat([existing, snap], ignore_index=True)
+    else:
+        combined = snap
+
+    combined = combined.sort_values(["date", "ticker"]).reset_index(drop=True)
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    combined.to_parquet(history_path, index=False)
+
+
 def build_history_from_prices(
     prices_df: pd.DataFrame,
     sample_dates: pd.DatetimeIndex,

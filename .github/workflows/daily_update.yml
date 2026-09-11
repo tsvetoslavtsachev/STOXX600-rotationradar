@@ -83,6 +83,12 @@ jobs:
         if: ${{ env.DATACORE_RO_PAT != '' && env.PRICE_ARCHIVE_RO_PAT != '' }}
         run: python scripts/assert_base_sourced.py
 
+      # Scale gate (2026-09-11): a GBX/GBP unit seam in the price cache puts every London .L name
+      # at -99% 12-1 momentum. Fail RED before anything is committed: no unexplained mom < -90,
+      # .L share in the bottom 15% <= 2x their universe share, no seam in the cache.
+      - name: Scale gate (UK pence/pounds, extreme losers)
+        run: python -m pytest -q tests/test_uk_scale_gate.py
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
