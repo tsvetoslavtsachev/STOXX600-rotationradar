@@ -151,13 +151,16 @@ def refresh_universe_cache() -> pd.DataFrame:
     universe = fetch_full_universe()
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Сравни новия universe с кешираната версия — ако ticker set се е променил,
-    # инвалидираме sector_map.json (може да има нови ticker-и без metadata).
+    # Сравни новия universe с кешираната версия — ако ticker set-ът или секторът
+    # на някой ticker се е променил, инвалидираме sector_map.json (нови ticker-и
+    # без metadata, или поправен превод на сектор, който иначе стои до TTL-а).
     if UNIVERSE_CACHE_PATH.exists():
         try:
             old = pd.read_parquet(UNIVERSE_CACHE_PATH)
-            if set(old["ticker"]) != set(universe["ticker"]):
-                print(f"  Universe ticker set changed → invalidating sector_map.json")
+            old_map = dict(zip(old["ticker"], old["gics_sector"]))
+            new_map = dict(zip(universe["ticker"], universe["gics_sector"]))
+            if old_map != new_map:
+                print(f"  Universe tickers/sectors changed → invalidating sector_map.json")
                 if SECTOR_CACHE_PATH.exists():
                     SECTOR_CACHE_PATH.unlink()
         except Exception:

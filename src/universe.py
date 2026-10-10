@@ -26,6 +26,7 @@ SECTOR_TRANSLATIONS = {
     "Informationstechnologie": "Information Technology",
     "Financials": "Financials",
     "Finanzen": "Financials",
+    "Finanzwesen": "Financials",
     "Gesundheitsversorgung": "Health Care",
     "Healthcare": "Health Care",
     "Nichtzyklische Konsumgüter": "Consumer Staples",
@@ -250,6 +251,9 @@ def _constituents_from_holdings(df: pd.DataFrame) -> pd.DataFrame:
     df["exchange"] = df["exchange"].astype(str).str.replace("\xa0", " ", regex=False).str.strip()
     df["country"] = df["country"].astype(str).str.replace("\xa0", " ", regex=False).str.strip()
     df["gics_sector"] = df["sector_de"].map(SECTOR_TRANSLATIONS).fillna(df["sector_de"])
+    untranslated = sorted(set(df.loc[~df["sector_de"].isin(SECTOR_TRANSLATIONS), "sector_de"]))
+    if untranslated:
+        print(f"  WARN untranslated iShares sectors (add to SECTOR_TRANSLATIONS): {untranslated}")
     df["yahoo_ticker"] = df.apply(
         lambda r: _ticker_to_yahoo(
             r["ishares_ticker"], r["exchange"], r["country"], r.get("name", "") or ""

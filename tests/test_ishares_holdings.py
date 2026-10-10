@@ -60,3 +60,14 @@ def test_truncated_file_is_rejected():
 def test_cp1252_bytes_decode():
     assert decode_bytes("Börse".encode("cp1252")) == "Börse"
     assert decode_bytes("\ufeffBörse".encode("utf-8")) == "Börse"
+
+
+def test_every_sector_in_sample_is_translated():
+    """Guard: an iShares sector label missing from SECTOR_TRANSLATIONS used to
+    pass through in German silently ('Finanzwesen' until 2026-10-10)."""
+    from src.universe import SECTOR_TRANSLATIONS, parse_constituents
+
+    df = parse_holdings_csv(_sample())
+    assert set(df["Sektor"]) <= set(SECTOR_TRANSLATIONS)
+    sectors = set(parse_constituents(_sample())["gics_sector"])
+    assert "Financials" in sectors and "Finanzwesen" not in sectors
