@@ -14,17 +14,11 @@ CSV формат (German):
 
 from __future__ import annotations
 
-import io
 import re
 
 import pandas as pd
-import requests
 
-ISHARES_URL = (
-    "https://www.ishares.com/de/privatanleger/de/produkte/251931/"
-    "ishares-stoxx-europe-600-ucits-etf-de-fund/1478358465952.ajax"
-    "?fileType=csv&fileName=EXSA_holdings&dataType=fund"
-)
+from src.ishares_holdings import fetch_holdings, parse_holdings_csv
 
 # German sector names → English (GICS-style)
 SECTOR_TRANSLATIONS = {
@@ -223,40 +217,18 @@ def _ticker_to_yahoo(ticker: str, exchange: str, country: str, name: str = "") -
     return f"{base}{suffix}"
 
 
-def fetch_ishares_csv() -> str:
-    """Изтегля surovия CSV от iShares."""
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0"
-        ),
-        "Accept": "text/csv,application/csv,text/plain,*/*",
-    }
-    resp = requests.get(ISHARES_URL, headers=headers, timeout=30)
-    resp.raise_for_status()
-    return resp.text
-
-
 def parse_constituents(csv_text: str) -> pd.DataFrame:
     """
     Парсира iShares CSV-то.
     Връща DataFrame: yahoo_ticker, ishares_ticker, name, gics_sector,
                      country, exchange, currency, weight_pct, local_price.
     """
-    lines = csv_text.splitlines()
-    header_idx = None
-    for i, line in enumerate(lines):
-        if line.startswith("Emittententicker"):
-            header_idx = i
-            break
-    if header_idx is None:
-        raise ValueError("Не намерих 'Emittententicker' header в CSV-то.")
+    return _constituents_from_holdings(parse_holdings_csv(csv_text))
 
-    data_csv = "\n".join(lines[header_idx:])
-    df = pd.read_csv(io.StringIO(data_csv), dtype=str)
 
-    df = df[df["Anlageklasse"].str.strip() == "Aktien"].copy()
-
+def _constituents_from_holdings(df: pd.DataFrame) -> pd.DataFrame:
+    """df = equity rows с каноничните (немски) колони от ishares_holdings."""
+    df = df.copy()
     df.rename(
         columns={
             "Emittententicker": "ishares_ticker",
@@ -309,8 +281,7 @@ def parse_constituents(csv_text: str) -> pd.DataFrame:
 
 def fetch_constituents() -> pd.DataFrame:
     """High-level wrapper: fetch + parse iShares CSV."""
-    csv_text = fetch_ishares_csv()
-    return parse_constituents(csv_text)
+    return _constituents_from_holdings(fetch_holdings())
 
 
 # Compatibility shims за SP500-style API (за да не пренаписвам всичко в downstream-а):
