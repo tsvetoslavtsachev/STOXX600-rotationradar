@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T08:20:05",
+  "updated": "2026-10-10T08:33:29",
   "tickers": {
     "ASML.AS": {
       "name": "ASML HOLDING",
@@ -8,8 +8,8 @@
     },
     "HSBA.L": {
       "name": "HSBC HOLDINGS PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ROG.SW": {
       "name": "ROCHE PS PAR AG",
@@ -48,8 +48,8 @@
     },
     "SAN.MC": {
       "name": "BANCO SANTANDER",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "TTE.PA": {
       "name": "TOTALENERGIES",
@@ -58,8 +58,8 @@
     },
     "ALV.DE": {
       "name": "ALLIANZ",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SU.PA": {
       "name": "SCHNEIDER ELECTRIC",
@@ -83,13 +83,13 @@
     },
     "BBVA.MC": {
       "name": "BANCO BILBAO VIZCAYA ARGENTARIA SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "UBSG.SW": {
       "name": "UBS GROUP AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ULVR.L": {
       "name": "UNILEVER PLC",
@@ -113,8 +113,8 @@
     },
     "UCG.MI": {
       "name": "UNICREDIT",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AIR.PA": {
       "name": "AIRBUS GROUP",
@@ -143,8 +143,8 @@
     },
     "ISP.MI": {
       "name": "INTESA SANPAOLO",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MC.PA": {
       "name": "LVMH",
@@ -153,8 +153,8 @@
     },
     "ZURN.SW": {
       "name": "ZURICH INSURANCE GROUP AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DTE.DE": {
       "name": "DEUTSCHE TELEKOM N AG",
@@ -163,8 +163,8 @@
     },
     "BNP.PA": {
       "name": "BNP PARIBAS SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "OR.PA": {
       "name": "LOREAL SA",
@@ -178,8 +178,8 @@
     },
     "INGA.AS": {
       "name": "ING GROEP",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "GSK.L": {
       "name": "GLAXOSMITHKLINE",
@@ -198,8 +198,8 @@
     },
     "CS.PA": {
       "name": "AXA SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "NG.L": {
       "name": "NATIONAL GRID PLC",
@@ -213,8 +213,8 @@
     },
     "LLOY.L": {
       "name": "LLOYDS BANKING GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ENEL.MI": {
       "name": "ENEL",
@@ -228,18 +228,18 @@
     },
     "BARC.L": {
       "name": "BARCLAYS PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "INVE-B.ST": {
       "name": "INVESTOR CLASS B",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MUV2.DE": {
       "name": "MUENCHENER RUECKVERSICHERUNGS-GESE",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "GLEN.L": {
       "name": "GLENCORE PLC",
@@ -248,8 +248,8 @@
     },
     "NWG.L": {
       "name": "NATWEST GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DG.PA": {
       "name": "VINCI SA",
@@ -263,13 +263,13 @@
     },
     "NDA-FI.HE": {
       "name": "NORDEA BANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DBK.DE": {
       "name": "DEUTSCHE BANK AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "REL.L": {
       "name": "RELX PLC",
@@ -278,8 +278,8 @@
     },
     "DB1.DE": {
       "name": "DEUTSCHE BOERSE AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AAL.L": {
       "name": "ANGLO AMERICAN PLC",
@@ -313,13 +313,13 @@
     },
     "LSEG.L": {
       "name": "LONDON STOCK EXCHANGE GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "GLE.PA": {
       "name": "SOCIETE GENERALE SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BAS.DE": {
       "name": "BASF N",
@@ -328,8 +328,8 @@
     },
     "SREN.SW": {
       "name": "SWISS RE AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "EL.PA": {
       "name": "ESSILORLUXOTTICA SA",
@@ -363,13 +363,13 @@
     },
     "STAN.L": {
       "name": "STANDARD CHARTERED PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "G.MI": {
       "name": "ASSICURAZIONI GENERALI",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ARGX.BR": {
       "name": "ARGENX",
@@ -393,8 +393,8 @@
     },
     "CABK.MC": {
       "name": "CAIXABANK SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BAYN.DE": {
       "name": "BAYER AG",
@@ -478,13 +478,13 @@
     },
     "EBS.VI": {
       "name": "ERSTE GROUP BANK AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SWED-A.ST": {
       "name": "SWEDBANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SDZ.SW": {
       "name": "SANDOZ GROUP AG",
@@ -503,13 +503,13 @@
     },
     "DANSKE.CO": {
       "name": "DANSKE BANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SEB-A.ST": {
       "name": "SKANDINAVISKA ENSKILDA BANKEN",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ASSA-B.ST": {
       "name": "ASSA ABLOY B",
@@ -558,23 +558,23 @@
     },
     "ADYEN.AS": {
       "name": "ADYEN",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SLHN.SW": {
       "name": "SWISS LIFE HOLDING AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "III.L": {
       "name": "3I GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "KBC.BR": {
       "name": "KBC GROEP",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ADS.DE": {
       "name": "ADIDAS N AG",
@@ -583,8 +583,8 @@
     },
     "PRU.L": {
       "name": "PRUDENTIAL PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "EQNR.OL": {
       "name": "EQUINOR",
@@ -593,8 +593,8 @@
     },
     "ABN.AS": {
       "name": "ABN AMRO BANK NV",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "VWS.CO": {
       "name": "VESTAS WIND SYSTEMS",
@@ -613,8 +613,8 @@
     },
     "AV.L": {
       "name": "AVIVA PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MT.AS": {
       "name": "ARCELORMITTAL SA",
@@ -623,13 +623,13 @@
     },
     "BMPS.MI": {
       "name": "BANCA MONTE DEI PASCHI DI SIENA SP",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DNB.OL": {
       "name": "DNB BANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "IMB.L": {
       "name": "IMPERIAL BRANDS PLC",
@@ -648,13 +648,13 @@
     },
     "PKO.WA": {
       "name": "POWSZECHNA KASA OSZCZEDNOSCI BANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "A5G.IR": {
       "name": "AIB GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AMS.MC": {
       "name": "AMADEUS IT GROUP",
@@ -668,13 +668,13 @@
     },
     "SAMPO.HE": {
       "name": "SAMPO CLASS A",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "EQT.ST": {
       "name": "EQT",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DTG.DE": {
       "name": "DAIMLER TRUCK HOLDING E AG",
@@ -693,8 +693,8 @@
     },
     "SHB-A.ST": {
       "name": "SVENSKA HANDELSBANKEN-A SHS",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "PKN.WA": {
       "name": "ORLEN",
@@ -713,8 +713,8 @@
     },
     "BPE.MI": {
       "name": "BPER BANCA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "NSIS-B.CO": {
       "name": "NOVOZYMES B",
@@ -743,8 +743,8 @@
     },
     "NN.AS": {
       "name": "NN GROUP",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "HEXA-B.ST": {
       "name": "HEXAGON CLASS B",
@@ -773,8 +773,8 @@
     },
     "PST.MI": {
       "name": "POSTE ITALIANE",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MTX.DE": {
       "name": "MTU AERO ENGINES HOLDING AG",
@@ -793,8 +793,8 @@
     },
     "ACA.PA": {
       "name": "CREDIT AGRICOLE SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MRK.DE": {
       "name": "MERCK",
@@ -803,8 +803,8 @@
     },
     "LGEN.L": {
       "name": "LEGAL AND GENERAL GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DSFIR.AS": {
       "name": "DSM FIRMENICH AG",
@@ -833,8 +833,8 @@
     },
     "HBAN.SW": {
       "name": "HELVETIA BALOISE HOLDING N AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SCMN.SW": {
       "name": "SWISSCOM AG",
@@ -853,13 +853,13 @@
     },
     "BIRG.IR": {
       "name": "BANK OF IRELAND GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SAB.MC": {
       "name": "BANCO DE SABADELL",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "WKL.AS": {
       "name": "WOLTERS KLUWER",
@@ -888,18 +888,18 @@
     },
     "HNR1.DE": {
       "name": "HANNOVER RUECK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BAER.SW": {
       "name": "JULIUS BAER GRUPPE AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "CBK.DE": {
       "name": "COMMERZBANK AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "KRX.IR": {
       "name": "KINGSPAN GROUP PLC",
@@ -938,13 +938,13 @@
     },
     "PGHN.SW": {
       "name": "PARTNERS GROUP HOLDING AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BAMI.MI": {
       "name": "BANCO BPM",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SHL.DE": {
       "name": "SIEMENS HEALTHINEERS AG",
@@ -978,8 +978,8 @@
     },
     "ETE.AT": {
       "name": "NATIONAL BANK OF GREECE",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "TEF.MC": {
       "name": "TELEFONICA SA",
@@ -1023,8 +1023,8 @@
     },
     "BG.VI": {
       "name": "BAWAG GROUP AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "KNIN.SW": {
       "name": "KUEHNE UND NAGEL INTERNATIONAL AG",
@@ -1038,8 +1038,8 @@
     },
     "FBK.MI": {
       "name": "FINECOBANK BANCA FINECO",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ELE.MC": {
       "name": "ENDESA SA",
@@ -1053,8 +1053,8 @@
     },
     "ENX.PA": {
       "name": "EURONEXT NV",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "UU.L": {
       "name": "UNITED UTILITIES GROUP PLC",
@@ -1083,8 +1083,8 @@
     },
     "ADM.L": {
       "name": "ADMIRAL GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "VNA.DE": {
       "name": "VONOVIA SE",
@@ -1123,8 +1123,8 @@
     },
     "AGS.BR": {
       "name": "AGEAS",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ALE.WA": {
       "name": "ALLEGRO SA",
@@ -1133,8 +1133,8 @@
     },
     "PEO.WA": {
       "name": "BANK PEKAO SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "CLNX.MC": {
       "name": "CELLNEX TELECOM",
@@ -1173,8 +1173,8 @@
     },
     "EUROB.AT": {
       "name": "EUROBANK SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "FORTUM.HE": {
       "name": "FORTUM",
@@ -1208,13 +1208,13 @@
     },
     "ASRNL.AS": {
       "name": "ASR NEDERLAND",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BCP.LS": {
       "name": "BANCO COMERCIAL PORTUGUES SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SN.L": {
       "name": "SMITH AND NEPHEW PLC",
@@ -1223,13 +1223,13 @@
     },
     "TPEIR.AT": {
       "name": "PIRAEUS BANK SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "UNI.MI": {
       "name": "UNIPOL ASSICURAZIONI SPA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "URW.PA": {
       "name": "UNIBAIL RODAMCO WE STAPLED UNITS",
@@ -1268,8 +1268,8 @@
     },
     "BKT.MC": {
       "name": "BANKINTER",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MONC.MI": {
       "name": "MONCLER",
@@ -1308,8 +1308,8 @@
     },
     "PZU.WA": {
       "name": "PZU SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "IMI.L": {
       "name": "IMI PLC",
@@ -1323,8 +1323,8 @@
     },
     "AGN.AS": {
       "name": "AEGON",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ORNBV.HE": {
       "name": "ORION CLASS B",
@@ -1358,8 +1358,8 @@
     },
     "WISE.L": {
       "name": "WISE PLC CLASS A",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ORSTED.CO": {
       "name": "ORSTED A/S",
@@ -1478,18 +1478,18 @@
     },
     "RBI.VI": {
       "name": "RAIFFEISEN BANK INTERNATIONAL AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SDLF.L": {
       "name": "STANDARD LIFE PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "HSX.L": {
       "name": "HISCOX LTD",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BNR.DE": {
       "name": "BRENNTAG",
@@ -1498,8 +1498,8 @@
     },
     "EBP.WA": {
       "name": "ERSTE BANK POLSKA SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "RXL.PA": {
       "name": "REXEL SA",
@@ -1508,13 +1508,13 @@
     },
     "MNG.L": {
       "name": "M&G PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "INDU-C.ST": {
       "name": "INDUSTRIVARDEN SERIES",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ACLN.SW": {
       "name": "ACCELLERON N AG",
@@ -1523,8 +1523,8 @@
     },
     "TLX.DE": {
       "name": "TALANX AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ADDT-B.ST": {
       "name": "ADDTECH CLASS B",
@@ -1533,8 +1533,8 @@
     },
     "STB.OL": {
       "name": "STOREBRAND",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "FME.DE": {
       "name": "FRESENIUS MEDICAL CARE AG",
@@ -1563,8 +1563,8 @@
     },
     "EXO.AS": {
       "name": "EXOR NV",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BEI.DE": {
       "name": "BEIERSDORF AG",
@@ -1603,8 +1603,8 @@
     },
     "EDEN.PA": {
       "name": "EDENRED",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "PPC.AT": {
       "name": "PUBLIC POWER CORPORATION SA",
@@ -1618,13 +1618,13 @@
     },
     "ALPHA.AT": {
       "name": "ALPHA BANK SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ALSYDB.CO": {
       "name": "AL SYDBANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ORK.OL": {
       "name": "ORKLA",
@@ -1678,8 +1678,8 @@
     },
     "STJ.L": {
       "name": "ST JAMESS PLACE PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ELI.BR": {
       "name": "ELIA GROUP SA",
@@ -1713,13 +1713,13 @@
     },
     "RILBA.CO": {
       "name": "RINGKJOBING LANDBOBANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "TRYG.CO": {
       "name": "TRYG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SRT3.DE": {
       "name": "SARTORIUS PREF AG",
@@ -1733,8 +1733,8 @@
     },
     "JYSK.CO": {
       "name": "JYSKE BANK",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ABVX.PA": {
       "name": "ABIVAX SA",
@@ -1758,8 +1758,8 @@
     },
     "ICG.L": {
       "name": "ICG PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ACKB.BR": {
       "name": "ACKERMANS & VAN HAAREN NV",
@@ -1858,8 +1858,8 @@
     },
     "AMUN.PA": {
       "name": "AMUNDI SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "LAND.L": {
       "name": "LAND SECURITIES GROUP REIT PLC",
@@ -1873,8 +1873,8 @@
     },
     "SAVE.ST": {
       "name": "NORDNET",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "IPN.PA": {
       "name": "IPSEN SA",
@@ -1898,8 +1898,8 @@
     },
     "GBLB.BR": {
       "name": "GROUPE BRUXELLES LAMBERT NV",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "NEX.PA": {
       "name": "NEXANS SA",
@@ -1918,8 +1918,8 @@
     },
     "BGEO.L": {
       "name": "LION FINANCE GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BEIJ-B.ST": {
       "name": "BEIJER REF CLASS B",
@@ -1943,8 +1943,8 @@
     },
     "ABDN.L": {
       "name": "ABERDEEN GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "CTEC.L": {
       "name": "CONVATEC GROUP PLC",
@@ -1953,8 +1953,8 @@
     },
     "SCR.PA": {
       "name": "SCOR",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AUTO.L": {
       "name": "AUTOTRADER GROUP PLC",
@@ -1963,8 +1963,8 @@
     },
     "BMED.MI": {
       "name": "BANCA MEDIOLANUM",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "JMT.LS": {
       "name": "JERONIMO MARTINS SA",
@@ -1988,8 +1988,8 @@
     },
     "SB1NO.OL": {
       "name": "SPAREBANK SR-NORGE",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "GET.PA": {
       "name": "GETLINK",
@@ -2003,8 +2003,8 @@
     },
     "EMG.L": {
       "name": "MAN GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SBMO.AS": {
       "name": "SBM OFFSHORE",
@@ -2028,8 +2028,8 @@
     },
     "SQN.SW": {
       "name": "SWISSQUOTE GROUP HOLDING SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "RMV.L": {
       "name": "RIGHTMOVE PLC",
@@ -2038,8 +2038,8 @@
     },
     "GJF.OL": {
       "name": "GJENSIDIGE FORSIKRING",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SW.PA": {
       "name": "SODEXO SA",
@@ -2103,8 +2103,8 @@
     },
     "AZA.ST": {
       "name": "AVANZA BANK HOLDING",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "HAG.DE": {
       "name": "HENSOLDT AG",
@@ -2113,8 +2113,8 @@
     },
     "MBK.WA": {
       "name": "MBANK SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "VER.VI": {
       "name": "VERBUND AG",
@@ -2148,8 +2148,8 @@
     },
     "BCVN.SW": {
       "name": "BC VAUD N",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "WDP.BR": {
       "name": "WAREHOUSES DE PAUW NV",
@@ -2163,8 +2163,8 @@
     },
     "SOF.BR": {
       "name": "SOFINA SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AIXA.DE": {
       "name": "AIXTRON",
@@ -2213,8 +2213,8 @@
     },
     "IGG.L": {
       "name": "IG GROUP HOLDINGS PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DIE.BR": {
       "name": "DIETEREN (D) SA",
@@ -2228,8 +2228,8 @@
     },
     "LUND-B.ST": {
       "name": "LUNDBERGFORETAGEN CLASS B",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AALB.AS": {
       "name": "AALBERTS",
@@ -2268,8 +2268,8 @@
     },
     "AZM.MI": {
       "name": "AZIMUT HOLDING",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AKE.PA": {
       "name": "ARKEMA SA",
@@ -2288,8 +2288,8 @@
     },
     "MAP.MC": {
       "name": "MAPFRE SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "OCTV-SDB.ST": {
       "name": "OCTAVE INTELLIGENCE SDR PLC",
@@ -2318,8 +2318,8 @@
     },
     "INVP.L": {
       "name": "INVESTEC PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "ENG.MC": {
       "name": "ENAGAS SA",
@@ -2348,8 +2348,8 @@
     },
     "UNI.MC": {
       "name": "UNICAJA BANCO SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "TE.PA": {
       "name": "TECHNIP ENERGIES",
@@ -2383,8 +2383,8 @@
     },
     "KBCA.BR": {
       "name": "KBC ANCORA NV",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "CPR.MI": {
       "name": "DAVIDE CAMPARI MILANO NV",
@@ -2423,8 +2423,8 @@
     },
     "BGN.MI": {
       "name": "BANCA GENERALI",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BFT.WA": {
       "name": "BENEFIT SYSTEMS",
@@ -2433,8 +2433,8 @@
     },
     "ING.WA": {
       "name": "ING BANK SLASKI SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "DRX.L": {
       "name": "DRAX GROUP PLC",
@@ -2453,8 +2453,8 @@
     },
     "MANTA.HE": {
       "name": "MANDATUM",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "EVD.DE": {
       "name": "CTS EVENTIM AG",
@@ -2498,8 +2498,8 @@
     },
     "MIL.WA": {
       "name": "BANK MILLENNIUM SA",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "INCH.L": {
       "name": "INCHCAPE PLC",
@@ -2528,8 +2528,8 @@
     },
     "CVC.AS": {
       "name": "CVC CAPITAL PARTNERS PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AKER.OL": {
       "name": "AKER",
@@ -2578,8 +2578,8 @@
     },
     "BPT.L": {
       "name": "BRIDGEPOINT GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "PAF.L": {
       "name": "PAN AFRICAN RESOURCES PLC",
@@ -2588,8 +2588,8 @@
     },
     "TCAP.L": {
       "name": "TP ICAP GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "RAA.DE": {
       "name": "RATIONAL AG",
@@ -2718,8 +2718,8 @@
     },
     "ALLFG.AS": {
       "name": "ALLFUNDS GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "MTO.L": {
       "name": "MITIE GROUP PLC",
@@ -2743,8 +2743,8 @@
     },
     "PLUS.L": {
       "name": "PLUS500",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "FPE3.DE": {
       "name": "FUCHS PREF",
@@ -2753,13 +2753,13 @@
     },
     "NEXI.MI": {
       "name": "NEXI",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "VONN.SW": {
       "name": "VONTOBEL HOLDING AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "IVG.MI": {
       "name": "IVECO GROUP NV",
@@ -2778,8 +2778,8 @@
     },
     "SBNOR.OL": {
       "name": "SPAREBANKEN NORGE",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BOL.PA": {
       "name": "BOLLORE",
@@ -2788,8 +2788,8 @@
     },
     "TBCG.L": {
       "name": "TBC BANK GROUP PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "AAF.L": {
       "name": "AIRTEL AFRICA PLC",
@@ -2803,8 +2803,8 @@
     },
     "VATN.SW": {
       "name": "VALIANT HOLDING AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BWY.L": {
       "name": "BELLWAY PLC",
@@ -2813,8 +2813,8 @@
     },
     "VZN.SW": {
       "name": "VZ HOLDING AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BKW.SW": {
       "name": "BKW N AG",
@@ -2828,8 +2828,8 @@
     },
     "CMBN.SW": {
       "name": "CEMBRA MONEY BANK AG",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "KGX.DE": {
       "name": "KION GROUP AG",
@@ -2883,8 +2883,8 @@
     },
     "XTB.WA": {
       "name": "XTB",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "UTG.L": {
       "name": "UNITE GROUP PLC",
@@ -2933,8 +2933,8 @@
     },
     "QLT.L": {
       "name": "QUILTER PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "COV.PA": {
       "name": "COVIVIO SA",
@@ -2963,8 +2963,8 @@
     },
     "FTK.DE": {
       "name": "FLATEXDEGIRO N",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "CSG.AS": {
       "name": "CSG CLASS A NV",
@@ -3003,13 +3003,13 @@
     },
     "SDR.L": {
       "name": "SCHRODERS PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BEZ.L": {
       "name": "BEAZLEY PLC",
-      "gics_sector": "Finanzwesen",
-      "gics_sub_industry": "Finanzwesen"
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     }
   }
 }
