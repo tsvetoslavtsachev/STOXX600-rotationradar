@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T02:49:34",
+  "updated": "2026-10-14T00:50:09",
   "tickers": {
     "ASML.AS": {
       "name": "ASML HOLDING",
@@ -71,23 +71,23 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "ABBN.SW": {
-      "name": "ABB LTD",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "IBE.MC": {
       "name": "IBERDROLA",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "UBSG.SW": {
-      "name": "UBS GROUP AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "ABBN.SW": {
+      "name": "ABB LTD",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "BBVA.MC": {
       "name": "BANCO BILBAO VIZCAYA ARGENTARIA SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "UBSG.SW": {
+      "name": "UBS GROUP AG",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -146,15 +146,15 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "ZURN.SW": {
-      "name": "ZURICH INSURANCE GROUP AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "MC.PA": {
       "name": "LVMH",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
+    },
+    "ZURN.SW": {
+      "name": "ZURICH INSURANCE GROUP AG",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BNP.PA": {
       "name": "BNP PARIBAS SA",
@@ -216,15 +216,15 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "ENEL.MI": {
-      "name": "ENEL",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
     "BA.L": {
       "name": "BAE SYSTEMS PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "ENEL.MI": {
+      "name": "ENEL",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
     },
     "BARC.L": {
       "name": "BARCLAYS PLC",
@@ -256,23 +256,23 @@
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "DG.PA": {
-      "name": "VINCI SA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "REL.L": {
       "name": "RELX PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "NDA-FI.HE": {
-      "name": "NORDEA BANK",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "DG.PA": {
+      "name": "VINCI SA",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "DBK.DE": {
       "name": "DEUTSCHE BANK AG",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "NDA-FI.HE": {
+      "name": "NORDEA BANK",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -296,45 +296,45 @@
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
     },
-    "NOKIA.HE": {
-      "name": "NOKIA",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
     "CPG.L": {
       "name": "COMPASS GROUP PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
-    },
-    "LSEG.L": {
-      "name": "LONDON STOCK EXCHANGE GROUP PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
     },
     "ATCO-A.ST": {
       "name": "ATLAS COPCO CLASS A",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
+    "LSEG.L": {
+      "name": "LONDON STOCK EXCHANGE GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "NOKIA.HE": {
+      "name": "NOKIA",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
     "GLE.PA": {
       "name": "SOCIETE GENERALE SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "BAS.DE": {
-      "name": "BASF N",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
+    "RMS.PA": {
+      "name": "HERMES INTERNATIONAL",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "EL.PA": {
       "name": "ESSILORLUXOTTICA SA",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "PRX.AS": {
-      "name": "PROSUS NV CLASS N",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "BAS.DE": {
+      "name": "BASF N",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "SREN.SW": {
       "name": "SWISS RE AG",
@@ -346,10 +346,15 @@
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "RMS.PA": {
-      "name": "HERMES INTERNATIONAL",
+    "PRX.AS": {
+      "name": "PROSUS NV CLASS N",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
+    },
+    "STAN.L": {
+      "name": "STANDARD CHARTERED PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "VOLV-B.ST": {
       "name": "VOLVO CLASS B",
@@ -361,20 +366,20 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "STAN.L": {
-      "name": "STANDARD CHARTERED PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "RHM.DE": {
+      "name": "RHEINMETALL AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "ENGI.PA": {
       "name": "ENGIE SA",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "RHM.DE": {
-      "name": "RHEINMETALL AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "DGE.L": {
+      "name": "DIAGEO PLC",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
     },
     "ASM.AS": {
       "name": "ASM INTERNATIONAL NV",
@@ -391,11 +396,6 @@
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "DGE.L": {
-      "name": "DIAGEO PLC",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
     "RACE.MI": {
       "name": "FERRARI",
       "gics_sector": "Consumer Discretionary",
@@ -411,15 +411,15 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "EOAN.DE": {
-      "name": "E.ON N",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
     "RKT.L": {
       "name": "RECKITT BENCKISER GROUP PLC",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
+    },
+    "EOAN.DE": {
+      "name": "E.ON N",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
     },
     "BN.PA": {
       "name": "DANONE SA",
@@ -431,11 +431,6 @@
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "PRY.MI": {
-      "name": "PRYSMIAN",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "LR.PA": {
       "name": "LEGRAND SA",
       "gics_sector": "Industrials",
@@ -445,6 +440,11 @@
       "name": "HOLCIM LTD AG",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
+    },
+    "PRY.MI": {
+      "name": "PRYSMIAN",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "HLN.L": {
       "name": "HALEON PLC",
@@ -466,6 +466,11 @@
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
+    "SDZ.SW": {
+      "name": "SANDOZ GROUP AG",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
     "SWED-A.ST": {
       "name": "SWEDBANK",
       "gics_sector": "Financials",
@@ -476,93 +481,93 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "SDZ.SW": {
-      "name": "SANDOZ GROUP AG",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
+    "SGO.PA": {
+      "name": "COMPAGNIE DE SAINT GOBAIN SA",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "VOD.L": {
       "name": "VODAFONE GROUP PLC",
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "SGO.PA": {
-      "name": "COMPAGNIE DE SAINT GOBAIN SA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "REP.MC": {
       "name": "REPSOL",
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
-    },
-    "ASSA-B.ST": {
-      "name": "ASSA ABLOY B",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
     },
     "SEB-A.ST": {
       "name": "SKANDINAVISKA ENSKILDA BANKEN",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "STMMI.MI": {
-      "name": "STMICROELECTRONICS",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
-    "DSV.CO": {
-      "name": "DSV",
+    "ASSA-B.ST": {
+      "name": "ASSA ABLOY B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
-    },
-    "SIKA.SW": {
-      "name": "SIKA AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
     },
     "DANSKE.CO": {
       "name": "DANSKE BANK",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "SIKA.SW": {
+      "name": "SIKA AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "DSV.CO": {
+      "name": "DSV",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "STMMI.MI": {
+      "name": "STMICROELECTRONICS",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
     "ALC.SW": {
       "name": "ALCON AG",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
-    },
-    "AD.AS": {
-      "name": "KONINKLIJKE AHOLD DELHAIZE",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
-    "ORA.PA": {
-      "name": "ORANGE SA",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
     },
     "GIVN.SW": {
       "name": "GIVAUDAN SA",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
+    "ADYEN.AS": {
+      "name": "ADYEN",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
     "EXPN.L": {
       "name": "EXPERIAN PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "ORA.PA": {
+      "name": "ORANGE SA",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "MBG.DE": {
       "name": "MERCEDES-BENZ GROUP N AG",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "ADYEN.AS": {
-      "name": "ADYEN",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "AD.AS": {
+      "name": "KONINKLIJKE AHOLD DELHAIZE",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
     },
     "III.L": {
       "name": "3I GROUP FUND PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "SLHN.SW": {
+      "name": "SWISS LIFE HOLDING AG",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -570,11 +575,6 @@
       "name": "ADIDAS N AG",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
-    },
-    "SLHN.SW": {
-      "name": "SWISS LIFE HOLDING AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
     },
     "KBC.BR": {
       "name": "KBC GROEP",
@@ -601,50 +601,50 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "MT.AS": {
-      "name": "ARCELORMITTAL SA",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
     "UCB.BR": {
       "name": "UCB SA",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "ERIC-B.ST": {
-      "name": "ERICSSON B",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "MT.AS": {
+      "name": "ARCELORMITTAL SA",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "AV.L": {
       "name": "AVIVA PLC",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "ERIC-B.ST": {
+      "name": "ERICSSON B",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
     "BMPS.MI": {
       "name": "BANCA MONTE DEI PASCHI DI SIENA SP",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
-    },
-    "IMB.L": {
-      "name": "IMPERIAL BRANDS PLC",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
     },
     "PUB.PA": {
       "name": "PUBLICIS GROUPE",
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "ML.PA": {
-      "name": "MICHELIN",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "IMB.L": {
+      "name": "IMPERIAL BRANDS PLC",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
     },
     "DNB.OL": {
       "name": "DNB BANK",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
+    },
+    "ML.PA": {
+      "name": "MICHELIN",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "AMS.MC": {
       "name": "AMADEUS IT GROUP",
@@ -661,6 +661,11 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "FER.MC": {
+      "name": "FERROVIAL NV",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "EQT.ST": {
       "name": "EQT",
       "gics_sector": "Financials",
@@ -671,28 +676,18 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "FER.MC": {
-      "name": "FERROVIAL NV",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "DTG.DE": {
-      "name": "DAIMLER TRUCK HOLDING E AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "HO.PA": {
       "name": "THALES SA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "PKN.WA": {
-      "name": "ORLEN",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
-    },
     "KNEBV.HE": {
       "name": "KONE",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "DTG.DE": {
+      "name": "DAIMLER TRUCK HOLDING E AG",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -706,23 +701,13 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "IHG.L": {
-      "name": "INTERCONTINENTAL HOTELS GROUP PLC",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "NSIS-B.CO": {
-      "name": "NOVOZYMES B",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
     "BPE.MI": {
       "name": "BPER BANCA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "NXT.L": {
-      "name": "NEXT PLC",
+    "IHG.L": {
+      "name": "INTERCONTINENTAL HOTELS GROUP PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
@@ -736,15 +721,25 @@
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
+    "PKN.WA": {
+      "name": "ORLEN",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "NSIS-B.CO": {
+      "name": "NOVOZYMES B",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "NXT.L": {
+      "name": "NEXT PLC",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
     "HEXA-B.ST": {
       "name": "HEXAGON CLASS B",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
-    },
-    "VACN.SW": {
-      "name": "VAT GROUP AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
     },
     "CAP.PA": {
       "name": "CAPGEMINI",
@@ -761,8 +756,18 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "VACN.SW": {
+      "name": "VAT GROUP AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "ACS.MC": {
       "name": "ACS ACTIVIDADES DE CONSTRUCCION Y",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "RYA.IR": {
+      "name": "RYANAIR HOLDINGS PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -771,18 +776,13 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "RYA.IR": {
-      "name": "RYANAIR HOLDINGS PLC",
+    "LDO.MI": {
+      "name": "LEONARDO FINMECCANICA SPA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
     "MTX.DE": {
       "name": "MTU AERO ENGINES HOLDING AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "LDO.MI": {
-      "name": "LEONARDO FINMECCANICA SPA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -801,20 +801,10 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "DSFIR.AS": {
-      "name": "DSM FIRMENICH AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
     "SGSN.SW": {
       "name": "SGS SA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
-    },
-    "HEI.DE": {
-      "name": "HEIDELBERG MATERIALS AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
     },
     "LGEN.L": {
       "name": "LEGAL AND GENERAL GROUP PLC",
@@ -826,15 +816,15 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "BMW.DE": {
-      "name": "BMW",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "HEI.DE": {
+      "name": "HEIDELBERG MATERIALS AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
-    "FRE.DE": {
-      "name": "FRESENIUS N",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
+    "DSFIR.AS": {
+      "name": "DSM FIRMENICH AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "PHIA.AS": {
       "name": "KONINKLIJKE PHILIPS",
@@ -846,20 +836,25 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "HBAN.SW": {
-      "name": "HELVETIA BALOISE HOLDING N AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "FRE.DE": {
+      "name": "FRESENIUS N",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
+    "BMW.DE": {
+      "name": "BMW",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "ANTO.L": {
       "name": "ANTOFAGASTA PLC",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "SCMN.SW": {
-      "name": "SWISSCOM AG",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
+    "HBAN.SW": {
+      "name": "HELVETIA BALOISE HOLDING N AG",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SAB.MC": {
       "name": "BANCO DE SABADELL",
@@ -870,6 +865,11 @@
       "name": "BANK OF IRELAND GROUP PLC",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
+    },
+    "SCMN.SW": {
+      "name": "SWISSCOM AG",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "UMG.AS": {
       "name": "UNIVERSAL MUSIC GROUP",
@@ -896,11 +896,6 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "CBK.DE": {
-      "name": "COMMERZBANK AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "EPI-A.ST": {
       "name": "EPIROC CLASS A",
       "gics_sector": "Industrials",
@@ -910,6 +905,16 @@
       "name": "KINGSPAN GROUP PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "CBK.DE": {
+      "name": "COMMERZBANK AG",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "NTGY.MC": {
+      "name": "NATURGY ENERGY GROUP SA",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
     },
     "KER.PA": {
       "name": "KERING SA",
@@ -921,16 +926,6 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "NTGY.MC": {
-      "name": "NATURGY ENERGY GROUP SA",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
-    "KPN.AS": {
-      "name": "KONINKLIJKE KPN NV",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
     "SHL.DE": {
       "name": "SIEMENS HEALTHINEERS AG",
       "gics_sector": "Health Care",
@@ -938,6 +933,11 @@
     },
     "BT-A.L": {
       "name": "BT GROUP PLC",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
+    },
+    "KPN.AS": {
+      "name": "KONINKLIJKE KPN NV",
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
@@ -961,30 +961,20 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "BOL.ST": {
-      "name": "BOLIDEN",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "INF.L": {
-      "name": "INFORMA PLC",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
-    "VOW3.DE": {
-      "name": "VOLKSWAGEN NON-VOTING PREF AG",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
     "KRZ.IR": {
       "name": "KERRY GROUP PLC",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "NESTE.HE": {
-      "name": "NESTE",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
+    "BOL.ST": {
+      "name": "BOLIDEN",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "VOW3.DE": {
+      "name": "VOLKSWAGEN NON-VOTING PREF AG",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "SOON.SW": {
       "name": "SONOVA HOLDING AG",
@@ -996,40 +986,45 @@
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "BESI.AS": {
-      "name": "BE SEMICONDUCTOR INDUSTRIES NV",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "NESTE.HE": {
+      "name": "NESTE",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
     },
     "ETE.AT": {
       "name": "NATIONAL BANK OF GREECE",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "INF.L": {
+      "name": "INFORMA PLC",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
+    },
     "ESSITY-B.ST": {
       "name": "ESSITY CLASS B",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "KNIN.SW": {
-      "name": "KUEHNE UND NAGEL INTERNATIONAL AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "BESI.AS": {
+      "name": "BE SEMICONDUCTOR INDUSTRIES NV",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
     },
     "TRN.MI": {
       "name": "TERNA RETE ELETTRICA NAZIONALE",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
+    "KNIN.SW": {
+      "name": "KUEHNE UND NAGEL INTERNATIONAL AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "FBK.MI": {
       "name": "FINECOBANK BANCA FINECO",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
-    },
-    "TEF.MC": {
-      "name": "TELEFONICA SA",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
     },
     "BG.VI": {
       "name": "BAWAG GROUP AG",
@@ -1051,18 +1046,28 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "LOGN.SW": {
-      "name": "LOGITECH INTERNATIONAL",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "TEF.MC": {
+      "name": "TELEFONICA SA",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "UU.L": {
       "name": "UNITED UTILITIES GROUP PLC",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
+    "LOGN.SW": {
+      "name": "LOGITECH INTERNATIONAL",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
     "DPLM.L": {
       "name": "DIPLOMA PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "KOG.OL": {
+      "name": "KONGSBERG GRUPPEN",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -1071,15 +1076,15 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "KOG.OL": {
-      "name": "KONGSBERG GRUPPEN",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "RI.PA": {
       "name": "PERNOD RICARD SA",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
+    },
+    "CLNX.MC": {
+      "name": "CELLNEX TELECOM",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "ADM.L": {
       "name": "ADMIRAL GROUP PLC",
@@ -1096,43 +1101,33 @@
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "CLNX.MC": {
-      "name": "CELLNEX TELECOM",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
     "HEN3.DE": {
       "name": "HENKEL & KGAA PREF AG",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
-    },
-    "MAERSK-B.CO": {
-      "name": "A P MOLLER MAERSK B",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
     },
     "SRG.MI": {
       "name": "SNAM",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "ALE.WA": {
-      "name": "ALLEGRO SA",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
     "SGE.L": {
       "name": "THE SAGE GROUP",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
     },
-    "IAG.L": {
-      "name": "INTERNATIONAL AIRLINES GROUP",
+    "ALE.WA": {
+      "name": "ALLEGRO SA",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "MAERSK-B.CO": {
+      "name": "A P MOLLER MAERSK B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "SCHP.SW": {
-      "name": "SCHINDLER HOLDING PAR AG",
+    "IAG.L": {
+      "name": "INTERNATIONAL AIRLINES GROUP",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -1141,8 +1136,8 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "ITRK.L": {
-      "name": "INTERTEK GROUP PLC",
+    "SCHP.SW": {
+      "name": "SCHINDLER HOLDING PAR AG",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -1151,13 +1146,23 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
+    "ITRK.L": {
+      "name": "INTERTEK GROUP PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "CARL-B.CO": {
+      "name": "CARLSBERG AS CL B",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
+    },
     "PEO.WA": {
       "name": "BANK PEKAO SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "CARL-B.CO": {
-      "name": "CARLSBERG AS CL B",
+    "CCH.L": {
+      "name": "COCA COLA HBC AG",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
@@ -1166,10 +1171,10 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "CCH.L": {
-      "name": "COCA COLA HBC AG",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
+    "EUROB.AT": {
+      "name": "EUROBANK SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "KGH.WA": {
       "name": "KGHM POLSKA MIEDZ SA",
@@ -1181,30 +1186,25 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "FORTUM.HE": {
-      "name": "FORTUM",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
     "OMV.VI": {
       "name": "OMV",
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
     },
-    "BNZL.L": {
-      "name": "BUNZL",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "EUROB.AT": {
-      "name": "EUROBANK SA",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "SN.L": {
       "name": "SMITH AND NEPHEW PLC",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
+    },
+    "FORTUM.HE": {
+      "name": "FORTUM",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
+    "BNZL.L": {
+      "name": "BUNZL",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "SPSN.SW": {
       "name": "SWISS PRIME SITE AG",
@@ -1216,6 +1216,16 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "TPEIR.AT": {
+      "name": "PIRAEUS BANK SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "AKRBP.OL": {
+      "name": "AKER BP",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
     "URW.PA": {
       "name": "UNIBAIL RODAMCO WE STAPLED UNITS",
       "gics_sector": "Real Estate",
@@ -1226,13 +1236,8 @@
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "AKRBP.OL": {
-      "name": "AKER BP",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
-    },
-    "UNI.MI": {
-      "name": "UNIPOL ASSICURAZIONI SPA",
+    "BCP.LS": {
+      "name": "BANCO COMERCIAL PORTUGUES SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1241,20 +1246,10 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "TPEIR.AT": {
-      "name": "PIRAEUS BANK SA",
+    "UNI.MI": {
+      "name": "UNIPOL ASSICURAZIONI SPA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
-    },
-    "BCP.LS": {
-      "name": "BANCO COMERCIAL PORTUGUES SA",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "NHY.OL": {
-      "name": "NORSK HYDRO",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
     },
     "BVI.PA": {
       "name": "BUREAU VERITAS SA",
@@ -1262,7 +1257,7 @@
       "gics_sub_industry": "Industrials"
     },
     "AKZA.AS": {
-      "name": "AKZO NOBEL",
+      "name": "AKZO NOBEL NV",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
@@ -1276,18 +1271,18 @@
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "FGR.PA": {
-      "name": "EIFFAGE SA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "NHY.OL": {
+      "name": "NORSK HYDRO",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "BKT.MC": {
       "name": "BANKINTER",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "IMI.L": {
-      "name": "IMI PLC",
+    "FGR.PA": {
+      "name": "EIFFAGE SA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -1301,15 +1296,15 @@
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
+    "IMI.L": {
+      "name": "IMI PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "SVT.L": {
       "name": "SEVERN TRENT PLC",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
-    },
-    "AC.PA": {
-      "name": "ACCOR SA",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
     },
     "PZU.WA": {
       "name": "PZU SA",
@@ -1326,33 +1321,28 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "TELIA.ST": {
-      "name": "TELIA COMPANY",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
     "ORNBV.HE": {
       "name": "ORION CLASS B",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "GALP.LS": {
-      "name": "GALP ENERGIA SGPS SA CLASS B",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
+    "AC.PA": {
+      "name": "ACCOR SA",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
-    "ERF.PA": {
-      "name": "EUROFINS SCIENTIFIC",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "RTO.L": {
-      "name": "RENTOKIL INITIAL PLC",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "TELIA.ST": {
+      "name": "TELIA COMPANY",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "COLO-B.CO": {
       "name": "COLOPLAST B",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
+    "ERF.PA": {
+      "name": "EUROFINS SCIENTIFIC",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
@@ -1360,6 +1350,16 @@
       "name": "WISE PLC CLASS A",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
+    },
+    "RTO.L": {
+      "name": "RENTOKIL INITIAL PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "GALP.LS": {
+      "name": "GALP ENERGIA SGPS SA CLASS B",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
     },
     "WEIR.L": {
       "name": "WEIR PLC",
@@ -1371,35 +1371,45 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "LISP.SW": {
-      "name": "CHOCOLADEFABRIKEN LINDT & SPRUENGL",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
     "QIA.DE": {
       "name": "QIAGEN",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
-    },
-    "MOWI.OL": {
-      "name": "MOWI",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
-    "STLAM.MI": {
-      "name": "STELLANTIS",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
     },
     "CNA.L": {
       "name": "CENTRICA PLC",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
+    "BEAN.SW": {
+      "name": "BELIMO N AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "MOWI.OL": {
+      "name": "MOWI",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
+    },
+    "LISP.SW": {
+      "name": "CHOCOLADEFABRIKEN LINDT & SPRUENGL",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
+    },
     "SKF-B.ST": {
       "name": "SKF B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "FRO.OL": {
+      "name": "FRONTLINE PLC",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "STLAM.MI": {
+      "name": "STELLANTIS",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "SKA-B.ST": {
       "name": "SKANSKA B",
@@ -1411,78 +1421,58 @@
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
     },
-    "BEAN.SW": {
-      "name": "BELIMO N AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "MICC.AS": {
+      "name": "MAGNUM ICE CREAM",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
     },
     "GTT.PA": {
       "name": "GAZTRANSPORT & TECHNIGAZ SA",
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
     },
-    "PNDORA.CO": {
-      "name": "PANDORA",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
     "TREL-B.ST": {
       "name": "TRELLEBORG B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
-    },
-    "LI.PA": {
-      "name": "KLEPIERRE REIT SA",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
-    },
-    "FRO.OL": {
-      "name": "FRONTLINE PLC",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
-    },
-    "MICC.AS": {
-      "name": "MAGNUM ICE CREAM",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
-    "CON.DE": {
-      "name": "CONTINENTAL AG",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
     },
     "HEIO.AS": {
       "name": "HEINEKEN HOLDING NV",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "TEL.OL": {
-      "name": "TELENOR",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
+    "LI.PA": {
+      "name": "KLEPIERRE REIT SA",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
+    },
+    "PNDORA.CO": {
+      "name": "PANDORA",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "SECU-B.ST": {
       "name": "SECURITAS B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "TEL2-B.ST": {
-      "name": "TELE2 B",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
-    "EVO.ST": {
-      "name": "EVOLUTION",
+    "CON.DE": {
+      "name": "CONTINENTAL AG",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "SDLF.L": {
-      "name": "STANDARD LIFE PLC",
+    "TEL.OL": {
+      "name": "TELENOR",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
+    },
+    "RBI.VI": {
+      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "HSX.L": {
-      "name": "HISCOX LTD",
+    "SDLF.L": {
+      "name": "STANDARD LIFE PLC",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1491,13 +1481,8 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "BNR.DE": {
-      "name": "BRENNTAG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "RBI.VI": {
-      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
+    "HSX.L": {
+      "name": "HISCOX LTD",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1506,18 +1491,48 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "BNR.DE": {
+      "name": "BRENNTAG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "EVO.ST": {
+      "name": "EVOLUTION",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "MNG.L": {
+      "name": "M&G FUND PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
     "INDU-C.ST": {
       "name": "INDUSTRIVARDEN SERIES",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
+    },
+    "TEL2-B.ST": {
+      "name": "TELE2 B",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
+    },
+    "FME.DE": {
+      "name": "FRESENIUS MEDICAL CARE AG",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
     },
     "ACLN.SW": {
       "name": "ACCELLERON N AG",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "MNG.L": {
-      "name": "M&G FUND PLC",
+    "LPP.WA": {
+      "name": "LPP SA",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "TLX.DE": {
+      "name": "TALANX AG",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1531,35 +1546,10 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "FME.DE": {
-      "name": "FRESENIUS MEDICAL CARE AG",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "TLX.DE": {
-      "name": "TALANX AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "DHER.DE": {
       "name": "DELIVERY HERO",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
-    },
-    "LPP.WA": {
-      "name": "LPP SA",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "SPIE.PA": {
-      "name": "SPIE SA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "EXO.AS": {
-      "name": "EXOR NV",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
     },
     "SUBC.OL": {
       "name": "SUBSEA",
@@ -1571,25 +1561,35 @@
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
+    "SPIE.PA": {
+      "name": "SPIE SA",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "HOT.DE": {
       "name": "HOCHTIEF AG",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "EXO.AS": {
+      "name": "EXOR NV",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SBRY.L": {
       "name": "SAINSBURY(J) PLC",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "EDEN.PA": {
-      "name": "EDENRED",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "PSPN.SW": {
       "name": "PSP SWISS PROPERTY AG",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
+    },
+    "EDEN.PA": {
+      "name": "EDENRED",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "LIFCO-B.ST": {
       "name": "LIFCO CLASS B",
@@ -1611,13 +1611,18 @@
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
     },
+    "ALPHA.AT": {
+      "name": "ALPHA BANK SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
     "PPC.AT": {
       "name": "PUBLIC POWER CORPORATION SA",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "ALPHA.AT": {
-      "name": "ALPHA BANK SA",
+    "ALSYDB.CO": {
+      "name": "AL SYDBANK",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1626,38 +1631,23 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "ALSYDB.CO": {
-      "name": "AL SYDBANK",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "SPX.L": {
+      "name": "SPIRAX GROUP PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "ORK.OL": {
       "name": "ORKLA",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "SPX.L": {
-      "name": "SPIRAX GROUP PLC",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "KBX.DE": {
-      "name": "KNORR BREMSE AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "MRO.L": {
-      "name": "MELROSE INDUSTRIES PLC",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "SCA-B.ST": {
       "name": "SVENSKA CELLULOSA B",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "NKT.CO": {
-      "name": "NKT",
+    "MRO.L": {
+      "name": "MELROSE INDUSTRIES PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -1666,30 +1656,55 @@
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
+    "NKT.CO": {
+      "name": "NKT",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "GAW.L": {
       "name": "GAMES WORKSHOP GROUP PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
-    },
-    "STJ.L": {
-      "name": "ST JAMESS PLACE PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
     },
     "KESKO-B.HE": {
       "name": "KESKO CLASS B",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
+    "KBX.DE": {
+      "name": "KNORR BREMSE AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "STJ.L": {
+      "name": "ST JAMESS PLACE PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "ELI.BR": {
+      "name": "ELIA GROUP SA",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
     "FRES.L": {
       "name": "FRESNILLO PLC",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "YAR.OL": {
-      "name": "YARA INTERNATIONAL",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
+    "IDR.MC": {
+      "name": "INDRA SISTEMAS SA",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "SPM.MI": {
+      "name": "SAIPEM",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "TRYG.CO": {
+      "name": "TRYG",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "HM-B.ST": {
       "name": "HENNES & MAURITZ",
@@ -1701,50 +1716,30 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "TRYG.CO": {
-      "name": "TRYG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "ELI.BR": {
-      "name": "ELIA GROUP SA",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
+    "SRT3.DE": {
+      "name": "SARTORIUS PREF AG",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
     },
     "LTMC.MI": {
       "name": "LOTTOMATICA GROUP",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "SRT3.DE": {
-      "name": "SARTORIUS PREF AG",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "SPM.MI": {
-      "name": "SAIPEM",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
+    "YAR.OL": {
+      "name": "YARA INTERNATIONAL",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "ICG.L": {
       "name": "ICG PLC",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "ABVX.PA": {
-      "name": "ABIVAX SA",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
     "INDT.ST": {
       "name": "INDUTRADE",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
-    },
-    "IDR.MC": {
-      "name": "INDRA SISTEMAS SA",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
     },
     "RILBA.CO": {
       "name": "RINGKJOBING LANDBOBANK",
@@ -1756,23 +1751,28 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "ABVX.PA": {
+      "name": "ABIVAX SA",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
     "DIM.PA": {
       "name": "SARTORIUS STEDIM BIOTECH SA",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
-    },
-    "EVK.DE": {
-      "name": "EVONIK INDUSTRIES AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
     },
     "ACKB.BR": {
       "name": "ACKERMANS & VAN HAAREN NV",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "SSAB-B.ST": {
-      "name": "SSAB CLASS B",
+    "STERV.HE": {
+      "name": "STORA ENSO CLASS R",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "EVK.DE": {
+      "name": "EVONIK INDUSTRIES AG",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
@@ -1786,40 +1786,30 @@
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "STERV.HE": {
-      "name": "STORA ENSO CLASS R",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
     "UHR.SW": {
       "name": "THE SWATCH GROUP AG",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "SYENS.BR": {
-      "name": "SYENSQO NV",
+    "SSAB-B.ST": {
+      "name": "SSAB CLASS B",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
-    },
-    "AED.BR": {
-      "name": "AEDIFICA NV",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
     },
     "ZAL.DE": {
       "name": "ZALANDO",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "NIBE-B.ST": {
-      "name": "NIBE INDUSTRIER CLASS B",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "AED.BR": {
+      "name": "AEDIFICA NV",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
     },
-    "TPRO.MI": {
-      "name": "TECHNOPROBE SPA",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "SYENS.BR": {
+      "name": "SYENSQO NV",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "ALO.PA": {
       "name": "ALSTOM SA",
@@ -1831,8 +1821,8 @@
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "BAB.L": {
-      "name": "BABCOCK INTERNATIONAL GROUP PLC",
+    "NIBE-B.ST": {
+      "name": "NIBE INDUSTRIER CLASS B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -1846,8 +1836,33 @@
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
+    "BAB.L": {
+      "name": "BABCOCK INTERNATIONAL GROUP PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "TPRO.MI": {
+      "name": "TECHNOPROBE SPA",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "AM.PA": {
+      "name": "DASSAULT AVIATION SA",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "AMUN.PA": {
       "name": "AMUNDI SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "LAND.L": {
+      "name": "LAND SECURITIES GROUP REIT PLC",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
+    },
+    "SAVE.ST": {
+      "name": "NORDNET",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1856,55 +1871,50 @@
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "AM.PA": {
-      "name": "DASSAULT AVIATION SA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "SAVE.ST": {
-      "name": "NORDNET",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "ATS.VI": {
-      "name": "AT & S AUSTRIA TECHNOLOGIE & SYSTE",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
-    "LAND.L": {
-      "name": "LAND SECURITIES GROUP REIT PLC",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
+    "IPN.PA": {
+      "name": "IPSEN SA",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
     },
     "BBY.L": {
       "name": "BALFOUR BEATTY PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "IPN.PA": {
-      "name": "IPSEN SA",
+    "CTEC.L": {
+      "name": "CONVATEC GROUP PLC",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
+    },
+    "ATS.VI": {
+      "name": "AT & S AUSTRIA TECHNOLOGIE & SYSTE",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
     },
     "NEX.PA": {
       "name": "NEXANS SA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "IG.MI": {
-      "name": "ITALGAS",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
     "GBLB.BR": {
       "name": "GROUPE BRUXELLES LAMBERT NV",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "IG.MI": {
+      "name": "ITALGAS",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
     "ANA.MC": {
       "name": "ACCIONA",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
+    },
+    "BGEO.L": {
+      "name": "LION FINANCE GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BEIJ-B.ST": {
       "name": "BEIJER REF CLASS B",
@@ -1916,21 +1926,6 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "CTEC.L": {
-      "name": "CONVATEC GROUP PLC",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "BGEO.L": {
-      "name": "LION FINANCE GROUP PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "ABDN.L": {
-      "name": "ABERDEEN GROUP PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "LOTB.BR": {
       "name": "LOTUS BAKERIES NV",
       "gics_sector": "Consumer Staples",
@@ -1941,23 +1936,18 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
+    "ABDN.L": {
+      "name": "ABERDEEN GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
     "WTB.L": {
       "name": "WHITBREAD PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "VOE.VI": {
-      "name": "VOESTALPINE AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "MRL.MC": {
-      "name": "MERLIN PROPERTIES REIT",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
-    },
-    "BMED.MI": {
-      "name": "BANCA MEDIOLANUM",
+    "SCR.PA": {
+      "name": "SCOR",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
@@ -1966,15 +1956,25 @@
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "SCR.PA": {
-      "name": "SCOR",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "MRL.MC": {
+      "name": "MERLIN PROPERTIES REIT",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
     },
     "MTLN.AT": {
       "name": "METLEN ENERGY & METALS PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "VOE.VI": {
+      "name": "VOESTALPINE AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "BMED.MI": {
+      "name": "BANCA MEDIOLANUM",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "GETI-B.ST": {
       "name": "GETINGE B",
@@ -1991,13 +1991,23 @@
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
+    "HWDN.L": {
+      "name": "HOWDEN JOINERY GROUP PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "SQN.SW": {
+      "name": "SWISSQUOTE GROUP HOLDING SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
     "JMT.LS": {
       "name": "JERONIMO MARTINS SA",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "HWDN.L": {
-      "name": "HOWDEN JOINERY GROUP PLC",
+    "GET.PA": {
+      "name": "GETLINK",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -2006,143 +2016,98 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "GET.PA": {
-      "name": "GETLINK",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "SBMO.AS": {
       "name": "SBM OFFSHORE",
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
-    },
-    "SQN.SW": {
-      "name": "SWISSQUOTE GROUP HOLDING SA",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "GALE.SW": {
-      "name": "GALENICA AG",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "WPP.L": {
-      "name": "WPP PLC",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
     },
     "BLND.L": {
       "name": "BRITISH LAND REIT",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "SOI.PA": {
-      "name": "SOITEC SA",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "HAG.DE": {
+      "name": "HENSOLDT AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "GALE.SW": {
+      "name": "GALENICA AG",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
     },
     "GJF.OL": {
       "name": "GJENSIDIGE FORSIKRING",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "SW.PA": {
-      "name": "SODEXO SA",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "GF.SW": {
-      "name": "GEORG FISCHER AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "WPP.L": {
+      "name": "WPP PLC",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "LMP.L": {
       "name": "LONDONMETRIC PROPERTY REIT PLC",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "ROR.L": {
-      "name": "ROTORK PLC",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "RMV.L": {
-      "name": "RIGHTMOVE PLC",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
-    "MOH.AT": {
-      "name": "MOTOR OIL (HELLAS) CORINTH REFINER",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
+    "SW.PA": {
+      "name": "SODEXO SA",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "PSN.L": {
       "name": "PERSIMMON PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "VAR.OL": {
-      "name": "VAR ENERGI",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
-    },
-    "LHA.DE": {
-      "name": "DEUTSCHE LUFTHANSA AG",
+    "ROR.L": {
+      "name": "ROTORK PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "MYCR.ST": {
-      "name": "MYCRONIC",
+    "GF.SW": {
+      "name": "GEORG FISCHER AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "SOI.PA": {
+      "name": "SOITEC SA",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
     },
-    "HAG.DE": {
-      "name": "HENSOLDT AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "RMV.L": {
+      "name": "RIGHTMOVE PLC",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "P911.DE": {
       "name": "DR ING HC F PORSCHE PRF AG",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "AZA.ST": {
-      "name": "AVANZA BANK HOLDING",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "MBK.WA": {
       "name": "MBANK SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "BRBY.L": {
-      "name": "BURBERRY GROUP PLC",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "UMI.BR": {
-      "name": "UMICORE SA",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "VER.VI": {
-      "name": "VERBUND AG",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
+    "VAR.OL": {
+      "name": "VAR ENERGI",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
     },
     "NDX1.DE": {
       "name": "NORDEX",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "NDA.DE": {
-      "name": "AURUBIS AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
+    "LHA.DE": {
+      "name": "DEUTSCHE LUFTHANSA AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
-    "AVOL.SW": {
-      "name": "AVOLTA AG",
+    "BRBY.L": {
+      "name": "BURBERRY GROUP PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
@@ -2151,18 +2116,68 @@
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
     },
+    "AZA.ST": {
+      "name": "AVANZA BANK HOLDING",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "MOH.AT": {
+      "name": "MOTOR OIL (HELLAS) CORINTH REFINER",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "MYCR.ST": {
+      "name": "MYCRONIC",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "VER.VI": {
+      "name": "VERBUND AG",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
+    "AVOL.SW": {
+      "name": "AVOLTA AG",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "NDA.DE": {
+      "name": "AURUBIS AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "DEMANT.CO": {
+      "name": "DEMANT",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
     "RED.MC": {
       "name": "REDEIA CORPORACION SA",
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
+    },
+    "UMI.BR": {
+      "name": "UMICORE SA",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "WDP.BR": {
       "name": "WAREHOUSES DE PAUW NV",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "DEMANT.CO": {
-      "name": "DEMANT",
+    "VK.PA": {
+      "name": "VALLOUREC SA",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "CCC.L": {
+      "name": "COMPUTACENTER PLC",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "SECT-B.ST": {
+      "name": "SECTRA CLASS B",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
@@ -2171,45 +2186,20 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "ADEN.SW": {
-      "name": "ADECCO GROUP AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "CCC.L": {
-      "name": "COMPUTACENTER PLC",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
-    "SIGN.SW": {
-      "name": "SIG GROUP N AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "SECT-B.ST": {
-      "name": "SECTRA CLASS B",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
     "PAH3.DE": {
       "name": "PORSCHE AUTOMOBIL HOLDING PREF",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "IGG.L": {
-      "name": "IG GROUP HOLDINGS PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "AIXA.DE": {
-      "name": "AIXTRON",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
     "BCVN.SW": {
       "name": "BC VAUD N",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
+    },
+    "SIGN.SW": {
+      "name": "SIG GROUP N AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "RS1.L": {
       "name": "RS GROUP PLC",
@@ -2221,60 +2211,65 @@
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "VK.PA": {
-      "name": "VALLOUREC SA",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
-    },
-    "ZAB.WA": {
-      "name": "ZABKA GROUP SOCIETE ANONYME SA",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
-    "AALB.AS": {
-      "name": "AALBERTS",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "IGG.L": {
+      "name": "IG GROUP HOLDINGS PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "BIM.PA": {
       "name": "BIOMERIEUX SA",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "FHZN.SW": {
-      "name": "FLUGHAFEN ZUERICH AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "OCTV-SDB.ST": {
+      "name": "OCTAVE INTELLIGENCE SDR PLC",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "ZAB.WA": {
+      "name": "ZABKA GROUP SOCIETE ANONYME SA",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
+    },
+    "AIXA.DE": {
+      "name": "AIXTRON",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
     },
     "LUND-B.ST": {
       "name": "LUNDBERGFORETAGEN CLASS B",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "BARN.SW": {
-      "name": "BARRY CALLEBAUT AG",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
-    },
     "VALMT.HE": {
       "name": "VALMET CORP",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "OCTV-SDB.ST": {
-      "name": "OCTAVE INTELLIGENCE SDR PLC",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "FHZN.SW": {
+      "name": "FLUGHAFEN ZUERICH AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
-    "CAST.ST": {
-      "name": "CASTELLUM",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
+    "AALB.AS": {
+      "name": "AALBERTS",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "TEMN.SW": {
       "name": "TEMENOS AG",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
+    },
+    "DNP.WA": {
+      "name": "DINO POLSKA",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
+    },
+    "CAST.ST": {
+      "name": "CASTELLUM",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
     },
     "ALK-B.CO": {
       "name": "ALK-ABELLO CLASS B",
@@ -2286,18 +2281,13 @@
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "AKE.PA": {
-      "name": "ARKEMA SA",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "AZM.MI": {
-      "name": "AZIMUT HOLDING",
+    "MAP.MC": {
+      "name": "MAPFRE SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "DNP.WA": {
-      "name": "DINO POLSKA",
+    "BARN.SW": {
+      "name": "BARRY CALLEBAUT AG",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
@@ -2306,25 +2296,50 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "MAP.MC": {
-      "name": "MAPFRE SA",
+    "AKE.PA": {
+      "name": "ARKEMA SA",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "TE.PA": {
+      "name": "TECHNIP ENERGIES",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "ADEN.SW": {
+      "name": "ADECCO GROUP AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "AZM.MI": {
+      "name": "AZIMUT HOLDING",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
-    },
-    "SALM.OL": {
-      "name": "SALMAR",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
     },
     "INVP.L": {
       "name": "INVESTEC PLC",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "TE.PA": {
-      "name": "TECHNIP ENERGIES",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
+    "A2A.MI": {
+      "name": "A2A",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
+    "LAGR-B.ST": {
+      "name": "LAGERCRANTZ GROUP CLASS B",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "SALM.OL": {
+      "name": "SALMAR",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
+    },
+    "BKG.L": {
+      "name": "BERKELEY GROUP HOLDINGS (THE)",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "ZEG.L": {
       "name": "ZEGONA COMMUNICATIONS PLC",
@@ -2336,65 +2351,50 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "LAGR-B.ST": {
-      "name": "LAGERCRANTZ GROUP CLASS B",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
-    "BKG.L": {
-      "name": "BERKELEY GROUP HOLDINGS (THE)",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "TEP.PA": {
-      "name": "TELEPERFORMANCE",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "A2A.MI": {
-      "name": "A2A",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
     "UNI.MC": {
       "name": "UNICAJA BANCO SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
-    },
-    "LEG.DE": {
-      "name": "LEG IMMOBILIEN N",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
     },
     "ELIS.PA": {
       "name": "ELIS SA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "RAND.AS": {
-      "name": "RANDSTAD HOLDING",
+    "LEG.DE": {
+      "name": "LEG IMMOBILIEN N",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
+    },
+    "TEP.PA": {
+      "name": "TELEPERFORMANCE",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "CPR.MI": {
+      "name": "DAVIDE CAMPARI MILANO NV",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
     },
     "JMAT.L": {
       "name": "JOHNSON MATTHEY PLC",
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "LOOMIS.ST": {
-      "name": "LOOMIS CLASS B",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "KBCA.BR": {
       "name": "KBC ANCORA NV",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "CPR.MI": {
-      "name": "DAVIDE CAMPARI MILANO NV",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
+    "RAND.AS": {
+      "name": "RANDSTAD HOLDING",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "GEKTERNA.AT": {
+      "name": "GEK TERNA",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "BGN.MI": {
       "name": "BANCA GENERALI",
@@ -2406,105 +2406,90 @@
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "ADP.PA": {
-      "name": "AEROPORTS DE PARIS SA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "GEKTERNA.AT": {
-      "name": "GEK TERNA",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "MNDI.L": {
-      "name": "MONDI PLC",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
     "BFT.WA": {
       "name": "BENEFIT SYSTEMS",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "TUB.BR": {
-      "name": "FINANCIERE DE TUBIZE SA",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "GL9.IR": {
-      "name": "GLANBIA PLC",
-      "gics_sector": "Consumer Staples",
-      "gics_sub_industry": "Consumer Staples"
+    "LOOMIS.ST": {
+      "name": "LOOMIS CLASS B",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "EVD.DE": {
       "name": "CTS EVENTIM AG",
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "DRX.L": {
-      "name": "DRAX GROUP PLC",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
+    "TUB.BR": {
+      "name": "FINANCIERE DE TUBIZE SA",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
+    "MNDI.L": {
+      "name": "MONDI PLC",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "ADP.PA": {
+      "name": "AEROPORTS DE PARIS SA",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "GL9.IR": {
+      "name": "GLANBIA PLC",
+      "gics_sector": "Consumer Staples",
+      "gics_sub_industry": "Consumer Staples"
     },
     "ING.WA": {
       "name": "ING BANK SLASKI SA",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "MANTA.HE": {
-      "name": "MANDATUM",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "ALLN.SW": {
-      "name": "ALLREAL HOLDING AG",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
+    "DRX.L": {
+      "name": "DRAX GROUP PLC",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
     },
     "SRP.L": {
       "name": "SERCO GROUP PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "ROSE.L": {
-      "name": "ROSEBANK INDUSTRIES PLC",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "IFCN.SW": {
-      "name": "INFICON HOLDING AG",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "MANTA.HE": {
+      "name": "MANDATUM",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "GFC.PA": {
       "name": "GECINA SA",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "INCH.L": {
-      "name": "INCHCAPE PLC",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "AYV.PA": {
-      "name": "AYVENS SA",
+    "ROSE.L": {
+      "name": "ROSEBANK INDUSTRIES PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "PIR-C.MI": {
-      "name": "PIRELLI & C",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "ALLN.SW": {
+      "name": "ALLREAL HOLDING AG",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
+    },
+    "IFCN.SW": {
+      "name": "INFICON HOLDING AG",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
     },
     "BME.L": {
       "name": "B&M EUROPEAN VALUE RETAIL PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "RAA.DE": {
-      "name": "RATIONAL AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "BPT.L": {
+      "name": "BRIDGEPOINT GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "VEND.OL": {
       "name": "VEND MARKETPLACES ASA",
@@ -2516,18 +2501,28 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "HUBN.SW": {
-      "name": "HUBER & SUHNER AG",
+    "PIR-C.MI": {
+      "name": "PIRELLI & C",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "INCH.L": {
+      "name": "INCHCAPE PLC",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "AYV.PA": {
+      "name": "AYVENS SA",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "BPT.L": {
-      "name": "BRIDGEPOINT GROUP PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "RAA.DE": {
+      "name": "RATIONAL AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
-    "IP.MI": {
-      "name": "INTERPUMP GROUP",
+    "HUBN.SW": {
+      "name": "HUBER & SUHNER AG",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -2536,23 +2531,23 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
+    "MIL.WA": {
+      "name": "BANK MILLENNIUM SA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "FLS.CO": {
+      "name": "FLSMIDTH AND CO CLASS B",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
     "SAGA-B.ST": {
       "name": "SAGAX CLASS B",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "EZJ.L": {
-      "name": "EASYJET",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "AKER.OL": {
-      "name": "AKER",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "ARCAD.AS": {
-      "name": "ARCADIS NV",
+    "IP.MI": {
+      "name": "INTERPUMP GROUP",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -2561,68 +2556,63 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "TCAP.L": {
-      "name": "TP ICAP GROUP PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "AAK.ST": {
-      "name": "AAK",
+    "CWK.L": {
+      "name": "CRANSWICK PLC",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "TW.L": {
-      "name": "TAYLOR WIMPEY PLC",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
-    "MIL.WA": {
-      "name": "BANK MILLENNIUM SA",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "EZJ.L": {
+      "name": "EASYJET",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "GRF.MC": {
       "name": "GRIFOLS CLASS A",
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "ENT.L": {
-      "name": "ENTAIN PLC",
+    "TCAP.L": {
+      "name": "TP ICAP GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "ARCAD.AS": {
+      "name": "ARCADIS NV",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "AKER.OL": {
+      "name": "AKER",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "TW.L": {
+      "name": "TAYLOR WIMPEY PLC",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
-    },
-    "RUI.PA": {
-      "name": "RUBIS",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
     },
     "ACP.WA": {
       "name": "ASSECO POLAND SA",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
     },
-    "REY.MI": {
-      "name": "REPLY",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
+    "ENT.L": {
+      "name": "ENTAIN PLC",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
-    "CWK.L": {
-      "name": "CRANSWICK PLC",
+    "AAK.ST": {
+      "name": "AAK",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "FLS.CO": {
-      "name": "FLSMIDTH AND CO CLASS B",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "RUI.PA": {
+      "name": "RUBIS",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
     },
-    "ITV.L": {
-      "name": "ITV PLC",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
-    },
-    "BC8.DE": {
-      "name": "BECHTLE AG",
+    "REY.MI": {
+      "name": "REPLY",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
     },
@@ -2636,23 +2626,23 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "TUI1.DE": {
-      "name": "TUI N AG",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "BC8.DE": {
+      "name": "BECHTLE AG",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
     },
-    "KTY.WA": {
-      "name": "GRUPA KETY",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "BAMNB.AS": {
-      "name": "BAM GROEP KONINKLIJKE NV",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "ITV.L": {
+      "name": "ITV PLC",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
     },
     "BC.MI": {
       "name": "BRUNELLO CUCINELLI",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "TUI1.DE": {
+      "name": "TUI N AG",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
@@ -2661,18 +2651,18 @@
       "gics_sector": "Health Care",
       "gics_sub_industry": "Health Care"
     },
-    "ACX.MC": {
-      "name": "ACERINOX",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
-    },
-    "FR.PA": {
-      "name": "VALEO",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "R3NK.DE": {
+      "name": "RENK GROUP AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "QQ.L": {
       "name": "QINETIQ GROUP PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "BAMNB.AS": {
+      "name": "BAM GROEP KONINKLIJKE NV",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
@@ -2681,58 +2671,73 @@
       "gics_sector": "Materials",
       "gics_sub_industry": "Materials"
     },
-    "R3NK.DE": {
-      "name": "RENK GROUP AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "SUN.SW": {
       "name": "SULZER AG",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "PLUS.L": {
-      "name": "PLUS500",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "NOD.OL": {
-      "name": "NORDIC SEMICONDUCTOR",
-      "gics_sector": "Information Technology",
-      "gics_sub_industry": "Information Technology"
-    },
-    "VPK.AS": {
-      "name": "KONINKLIJKE VOPAK",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
-    },
-    "ALLFG.AS": {
-      "name": "ALLFUNDS GROUP PLC",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "SFZN.SW": {
-      "name": "SIEGFRIED HOLDING AG",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
-    "MTO.L": {
-      "name": "MITIE GROUP PLC",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
+    "FR.PA": {
+      "name": "VALEO",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "BELA.AT": {
       "name": "JUMBO",
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
-    "FNTN.DE": {
-      "name": "FREENET AG",
-      "gics_sector": "Communication Services",
-      "gics_sub_industry": "Communication Services"
+    "KTY.WA": {
+      "name": "GRUPA KETY",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
+    "PLUS.L": {
+      "name": "PLUS500",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "NEXI.MI": {
+      "name": "NEXI",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "VPK.AS": {
+      "name": "KONINKLIJKE VOPAK",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
+    },
+    "SFZN.SW": {
+      "name": "SIEGFRIED HOLDING AG",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
+    },
+    "ALLFG.AS": {
+      "name": "ALLFUNDS GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "MTO.L": {
+      "name": "MITIE GROUP PLC",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
+    },
+    "ACX.MC": {
+      "name": "ACERINOX",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
     },
     "HTO.AT": {
       "name": "HELLENIC TELECOMMUNICATIONS ORGANI",
+      "gics_sector": "Communication Services",
+      "gics_sub_industry": "Communication Services"
+    },
+    "NOD.OL": {
+      "name": "NORDIC SEMICONDUCTOR",
+      "gics_sector": "Information Technology",
+      "gics_sub_industry": "Information Technology"
+    },
+    "FNTN.DE": {
+      "name": "FREENET AG",
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
@@ -2740,16 +2745,6 @@
       "name": "COMET HOLDING AG",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
-    },
-    "NEXI.MI": {
-      "name": "NEXI",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "FPE3.DE": {
-      "name": "FUCHS PREF",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
     },
     "SUNN.SW": {
       "name": "SUNRISE N CLASS A LTD",
@@ -2761,6 +2756,11 @@
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
+    "FPE3.DE": {
+      "name": "FUCHS PREF",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
     "HUH1V.HE": {
       "name": "HUHTAMAKI",
       "gics_sector": "Materials",
@@ -2771,10 +2771,10 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "DLG.MI": {
-      "name": "DELONGHI",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "TBCG.L": {
+      "name": "TBC BANK GROUP PLC",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SBNOR.OL": {
       "name": "SPAREBANKEN NORGE",
@@ -2786,10 +2786,20 @@
       "gics_sector": "Energy",
       "gics_sub_industry": "Energy"
     },
-    "TBCG.L": {
-      "name": "TBC BANK GROUP PLC",
+    "DLG.MI": {
+      "name": "DELONGHI",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
+    "VZN.SW": {
+      "name": "VZ HOLDING AG",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
+    },
+    "BWY.L": {
+      "name": "BELLWAY PLC",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "BALD-B.ST": {
       "name": "FASTIGHETS BALDER CLASS B",
@@ -2801,25 +2811,15 @@
       "gics_sector": "Utilities",
       "gics_sub_industry": "Utilities"
     },
-    "VZN.SW": {
-      "name": "VZ HOLDING AG",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
     "VSURE.ST": {
       "name": "VERISURE PLC",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "KGX.DE": {
-      "name": "KION GROUP AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
-    "BWY.L": {
-      "name": "BELLWAY PLC",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "TGS.OL": {
+      "name": "TGS NOPEC GEOPHYSICAL",
+      "gics_sector": "Energy",
+      "gics_sub_industry": "Energy"
     },
     "VATN.SW": {
       "name": "VALIANT HOLDING AG",
@@ -2831,35 +2831,30 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "MOBN.SW": {
-      "name": "MOBIMO HOLDING AG",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
+    "KGX.DE": {
+      "name": "KION GROUP AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "CMBN.SW": {
       "name": "CEMBRA MONEY BANK AG",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
     },
-    "SFSN.SW": {
-      "name": "SFS GROUP AG",
-      "gics_sector": "Industrials",
-      "gics_sub_industry": "Industrials"
-    },
     "SWEC-B.ST": {
       "name": "SWECO CLASS B",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "TGS.OL": {
-      "name": "TGS NOPEC GEOPHYSICAL",
-      "gics_sector": "Energy",
-      "gics_sub_industry": "Energy"
+    "MOBN.SW": {
+      "name": "MOBIMO HOLDING AG",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
     },
-    "FDJU.PA": {
-      "name": "FDJ UNITED",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
+    "SFSN.SW": {
+      "name": "SFS GROUP AG",
+      "gics_sector": "Industrials",
+      "gics_sub_industry": "Industrials"
     },
     "RBREW.CO": {
       "name": "ROYAL UNIBREW",
@@ -2876,13 +2871,18 @@
       "gics_sector": "Communication Services",
       "gics_sub_industry": "Communication Services"
     },
-    "XTB.WA": {
-      "name": "XTB",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
+    "FDJU.PA": {
+      "name": "FDJ UNITED",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
     },
     "UTG.L": {
       "name": "UNITE GROUP REIT PLC",
+      "gics_sector": "Real Estate",
+      "gics_sub_industry": "Real Estate"
+    },
+    "SHC.L": {
+      "name": "SHAFTESBURY CAPITAL REIT PLC",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
@@ -2896,30 +2896,30 @@
       "gics_sector": "Consumer Discretionary",
       "gics_sub_industry": "Consumer Discretionary"
     },
+    "AG1.DE": {
+      "name": "AUTO1 GROUP",
+      "gics_sector": "Consumer Discretionary",
+      "gics_sub_industry": "Consumer Discretionary"
+    },
     "PUIG.MC": {
       "name": "PUIG BRANDS SA CLASS B",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
+    },
+    "XTB.WA": {
+      "name": "XTB",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "SOP.PA": {
       "name": "SOPRA STERIA GROUP",
       "gics_sector": "Information Technology",
       "gics_sub_industry": "Information Technology"
     },
-    "SHC.L": {
-      "name": "SHAFTESBURY CAPITAL REIT PLC",
-      "gics_sector": "Real Estate",
-      "gics_sub_industry": "Real Estate"
-    },
     "TOM.OL": {
       "name": "TOMRA SYSTEMS",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
-    },
-    "SDF.DE": {
-      "name": "K+S N AG",
-      "gics_sector": "Materials",
-      "gics_sub_industry": "Materials"
     },
     "SCYR.MC": {
       "name": "SACYR",
@@ -2936,11 +2936,6 @@
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
-    "AG1.DE": {
-      "name": "AUTO1 GROUP",
-      "gics_sector": "Consumer Discretionary",
-      "gics_sub_industry": "Consumer Discretionary"
-    },
     "ROCK-B.CO": {
       "name": "ROCKWOOL CLASS B",
       "gics_sector": "Industrials",
@@ -2951,25 +2946,25 @@
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
     },
+    "SDF.DE": {
+      "name": "K+S N AG",
+      "gics_sector": "Materials",
+      "gics_sub_industry": "Materials"
+    },
     "AXFO.ST": {
       "name": "AXFOOD",
       "gics_sector": "Consumer Staples",
       "gics_sub_industry": "Consumer Staples"
     },
-    "FTK.DE": {
-      "name": "FLATEXDEGIRO N",
-      "gics_sector": "Financials",
-      "gics_sub_industry": "Financials"
-    },
-    "PNN.L": {
-      "name": "PENNON GROUP PLC",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
-    },
     "CSG.AS": {
       "name": "CSG CLASS A NV",
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
+    },
+    "FTK.DE": {
+      "name": "FLATEXDEGIRO N",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
     },
     "TEG.DE": {
       "name": "TAG IMMOBILIEN AG",
@@ -2981,15 +2976,20 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
-    "ZEAL.CO": {
-      "name": "ZEALAND PHARMA",
-      "gics_sector": "Health Care",
-      "gics_sub_industry": "Health Care"
-    },
     "DLN.L": {
       "name": "DERWENT LONDON REIT PLC",
       "gics_sector": "Real Estate",
       "gics_sub_industry": "Real Estate"
+    },
+    "PNN.L": {
+      "name": "PENNON GROUP PLC",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
+    "ZEAL.CO": {
+      "name": "ZEALAND PHARMA",
+      "gics_sector": "Health Care",
+      "gics_sub_industry": "Health Care"
     },
     "HOC.L": {
       "name": "HOCHSCHILD MINING PLC",
@@ -3001,6 +3001,16 @@
       "gics_sector": "Industrials",
       "gics_sub_industry": "Industrials"
     },
+    "UNIAXA.MI": {
+      "name": "UNIPOL AXA",
+      "gics_sector": "Financials",
+      "gics_sub_industry": "Financials"
+    },
+    "PNNN.L": {
+      "name": "PENNON GROUP NIL PAID RIGHTS PLC",
+      "gics_sector": "Utilities",
+      "gics_sub_industry": "Utilities"
+    },
     "SDR.L": {
       "name": "SCHRODERS PLC",
       "gics_sector": "Financials",
@@ -3010,11 +3020,6 @@
       "name": "BEAZLEY PLC",
       "gics_sector": "Financials",
       "gics_sub_industry": "Financials"
-    },
-    "2689012D.L": {
-      "name": "PENNON GROUP",
-      "gics_sector": "Utilities",
-      "gics_sub_industry": "Utilities"
     }
   }
 }
