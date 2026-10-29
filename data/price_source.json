@@ -1,5 +1,6 @@
 {
   "by_symbol": {
+    "-.DE": "missing",
     "A2A.MI": "base",
     "A5G.IR": "base",
     "AAF.L": "base",
@@ -407,7 +408,6 @@
     "PLUS.L": "base",
     "PNDORA.CO": "base",
     "PNN.L": "base",
-    "PNNF.L": "fetch",
     "PPC.AT": "fetch",
     "PRU.L": "base",
     "PRX.AS": "base",
