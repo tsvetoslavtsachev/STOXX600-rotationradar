@@ -1,6 +1,5 @@
 {
   "by_symbol": {
-    "-.DE": "missing",
     "A2A.MI": "base",
     "A5G.IR": "base",
     "AAF.L": "base",
@@ -544,6 +543,7 @@
     "TEP.PA": "base",
     "TGS.OL": "base",
     "TKA.DE": "base",
+    "TKCC.DE": "fetch",
     "TLX.DE": "base",
     "TOM.OL": "base",
     "TPEIR.AT": "fetch",
