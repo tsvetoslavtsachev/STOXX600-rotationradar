@@ -1,6 +1,5 @@
 {
   "by_symbol": {
-    "-.HE": "missing",
     "A2A.MI": "base",
     "A5G.IR": "base",
     "AAF.L": "base",
@@ -592,6 +591,7 @@
     "VZN.SW": "base",
     "WDP.BR": "base",
     "WEIR.L": "base",
+    "WISA.HE": "missing",
     "WISE.L": "base",
     "WKL.AS": "base",
     "WPP.L": "base",
