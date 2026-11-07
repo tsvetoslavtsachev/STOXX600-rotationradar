@@ -10,7 +10,7 @@
     },
     "scoring": "pure 12-1 momentum + GICS-sector-relative z-score",
     "universe_source": "iShares EXSA UCITS ETF holdings (daily)",
-    "universe_updated": "2026-11-07T01:33:45"
+    "universe_updated": "2026-11-07T10:37:46"
   },
   "stable_winners_1m": [
     {
@@ -74693,7 +74693,7 @@
   ],
   "screener": {
     "as_of": "2026-11-06",
-    "universe_updated": "2026-11-07T01:33:45",
+    "universe_updated": "2026-11-07T10:37:46",
     "stocks": [
       {
         "ticker": "ABBN.SW",
