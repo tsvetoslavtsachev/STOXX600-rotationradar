@@ -71,3 +71,48 @@ def test_every_sector_in_sample_is_translated():
     assert set(df["Sektor"]) <= set(SECTOR_TRANSLATIONS)
     sectors = set(parse_constituents(_sample())["gics_sector"])
     assert "Financials" in sectors and "Finanzwesen" not in sectors
+
+
+CH_FIXTURE = Path(__file__).parent / "fixtures" / "exsa_holdings_ch_en_2026-11-19.csv"
+XTR_FIXTURE = Path(__file__).parent / "fixtures" / "xtrackers_stoxx600_2026-11-22.xlsx"
+
+
+def test_swiss_english_file_gives_german_values():
+    """The CH professional site (first URL since 22.11.2026) has English
+    labels and '1’288.20' numbers; callers must see the DE-site form."""
+    from src.universe import COUNTRY_TRANSLATIONS, SECTOR_TRANSLATIONS, parse_constituents
+
+    df = parse_holdings_csv(decode_bytes(CH_FIXTURE.read_bytes()))
+    assert len(df) == 601
+    asml = df[df["Emittententicker"] == "ASML"].iloc[0]
+    assert asml["Gewichtung (%)"] == "3,75" and asml["Kurs"] == "1288,20"
+    assert set(df["Sektor"]) <= set(SECTOR_TRANSLATIONS)
+    assert set(df["Standort"]) <= set(COUNTRY_TRANSLATIONS) | {"Portugal"}
+    cons = parse_constituents(decode_bytes(CH_FIXTURE.read_bytes()))
+    a = cons[cons["ishares_ticker"] == "ASML"].iloc[0]
+    assert abs(a["weight_pct"] - 3.75) < 1e-9 and abs(a["local_price"] - 1288.20) < 1e-9
+
+
+def test_german_numbers_unchanged_in_value():
+    df = parse_holdings_csv(_sample())
+    assert df["Gewichtung (%)"].iloc[0] == "4,84" and df["Kurs"].iloc[0] == "1630,60"
+
+
+def test_crosscheck_with_xtrackers_agrees():
+    import pandas as pd
+    from src.ishares_holdings import crosscheck
+
+    ish = parse_holdings_csv(decode_bytes(CH_FIXTURE.read_bytes()))
+    raw = pd.read_excel(XTR_FIXTURE, header=3)
+    res = crosscheck(ish, raw)
+    assert res["ok"], res
+    assert res["matched_weight_pct"] >= 95
+
+
+def test_crosscheck_flags_a_truncated_file():
+    import pandas as pd
+    from src.ishares_holdings import crosscheck
+
+    ish = parse_holdings_csv(decode_bytes(CH_FIXTURE.read_bytes()))
+    raw = pd.read_excel(XTR_FIXTURE, header=3)
+    assert not crosscheck(ish.iloc[:450], raw)["ok"]
